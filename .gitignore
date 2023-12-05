@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Ignore specific file
+xbuchm02
+out

@@ -1,20 +1,21 @@
-CXX := g++
-CXXFLAGS := -std=c++11 -Wall -Wextra -pedantic
-LDFLAGS := -L/usr/local
+CXX = g++
+CXXFLAGS = -std=c++11 -Wall -Wextra -pedantic
+LDFLAGS = -L/usr/local/lib
+LIBS = -lsimlib
 
-SRC_DIR := .
-SRC_FILES := $(wildcard $(SRC_DIR)/*.cpp)
-OBJ_FILES := $(patsubst $(SRC_DIR)/%.cpp, %.o, $(SRC_FILES))
+SRC_DIR := ./
+SRCS := $(wildcard $(SRC_DIR)/*.cpp)
+OBJS := $(patsubst $(SRC_DIR)/%.cpp, %.o, $(SRCS))
 
-.PHONY: all clean
+TARGET = xbuchm02
 
-all: xbuchm02
+all: $(TARGET)
 
-xbuchm02: $(OBJ_FILES)
-    $(CXX) $(CXXFLAGS) $^ -o $@ $(LDFLAGS) -lsimlib3
+$(TARGET): $(OBJS)
+	$(CXX) $(CXXFLAGS) $^ -o $@ $(LDFLAGS) $(LIBS)
 
 %.o: $(SRC_DIR)/%.cpp
-    $(CXX) $(CXXFLAGS) -c $< -o $@
+	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 clean:
-    rm -f $(OBJ_FILES) xbuchm02
+	rm -f $(OBJS) $(TARGET)

@@ -8,8 +8,8 @@
 #define START_TIME 0
 #define END_TIME 60*24*21
 
-#define NUM_OF_COMBINES 1
-#define NUM_OF_TRACTORS 2
+#define NUM_OF_COMBINES 5
+#define NUM_OF_TRACTORS 15
 
 //field size in kilometres squared
 #define FIELD_SIZE 10.0 // 10km^2

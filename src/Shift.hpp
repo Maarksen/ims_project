@@ -13,9 +13,13 @@ public:
     // Behavior function
     void Behavior() override;
 
+    ~Shift() override;
+
     Store *shifts;
 
     float *fieldSize;
+
+    TractorFacility **tractorFacilities;
 
 
 

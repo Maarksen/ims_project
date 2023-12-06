@@ -25,16 +25,19 @@ void Shift::Behavior() {
     ShiftTimer *shift_timer = new ShiftTimer(this, *shifts);
     while(harvest->field_size > 0){
 
+         
+        // cout << "vytvaram combajn a fieldSize je:" << harvest->field_size << " shift fieldSize je" << *this->fieldSize << endl;
+        Enter(*combines, 1);
         if(harvest->field_size == 0){
-            cout << "[" << Time << "]" << " Harvest is done." << endl;
             break;
         }
-        cout << "[" << Time << "]" << "este som spustil zmenu" << endl;
-        Enter(*combines, 1);
+        cout << "vytvaram combajn a fieldSize je:" << harvest->field_size << " shift fieldSize je" << *this->fieldSize << endl;
         Combine *combine = (new Combine(this->combines, this->fieldSize));
         combine->Activate();       
+        
+        
     }
-    // Leave(*combines, 1);
+    Leave(*shifts, 1);
     cout << "[" << Time << "]" << " Harvest is done." << endl;
 }
 

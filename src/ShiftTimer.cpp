@@ -9,8 +9,8 @@ ShiftTimer::ShiftTimer(Shift *shift, Store *shifts): shift(shift), shifts(shifts
 }
 
 void ShiftTimer::Behavior() {
-    this->isShift = false;
     cout << "["<< Time << "] Shift ended" << endl;
+
     delete shift;
     Wait(12 * 60);
     Leave(*shifts, 1);

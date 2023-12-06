@@ -14,7 +14,6 @@ void Combine::Behavior() {
     long time_started = Time;
     Wait(Normal(24,6));
     if (*fieldSize < 0.155) {
-        cout << "[" << Time <<  "] filed size is less then 0.150"  << endl;
         *fieldSize = 0;
     }
     else{  

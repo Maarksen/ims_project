@@ -1,0 +1,1609 @@
+------------------------
+SIMULATION START ty coco
+RUN NUMBER .
+Harvest started.
+field size: 10
+TractorFacility created
+TractorFacility created
+field size: 10
+[0] Shift started
+[0] ShifTimer started
+vytvaram combajn a fieldSize je:10
+Combine is created.
+vytvaram combajn a fieldSize je:10
+Combine is created.
+vytvaram combajn a fieldSize je:10
+Combine is created.
+vytvaram combajn a fieldSize je:10
+Combine is created.
+vytvaram combajn a fieldSize je:10
+Combine is created.
+[17.2714] Combine 2 was harvesting for 17.2714 minutes.9.945 km left in the field.
+ja, kombajn 2 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[17.2714]kombajn[2] ziskal traktor cislo  0 s kapacitou 3
+[18.7714]kombajn cislo 2 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:9.945
+Combine is created.
+[21.6871] Combine 3 was harvesting for 21.6871 minutes.9.89 km left in the field.
+ja, kombajn 3 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[21.6871]kombajn[3] ziskal traktor cislo  0 s kapacitou 2
+[22.2681] Combine 1 was harvesting for 22.2681 minutes.9.835 km left in the field.
+ja, kombajn 1 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[22.2681]kombajn[1] ziskal traktor cislo  1 s kapacitou 3
+[23.1871]kombajn cislo 3 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:9.835
+Combine is created.
+[23.7681]kombajn cislo 1 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:9.835
+Combine is created.
+[26.7995] Combine 4 was harvesting for 26.7995 minutes.9.78 km left in the field.
+ja, kombajn 4 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[26.7995]kombajn[4] ziskal traktor cislo  0 s kapacitou 1
+28.2995kombajn 4posiela traktor 0 na vandrovku
+[28.2995] aktivoval sa proces traktora (ide do skladu)
+[28.2995]kombajn cislo 4 opusta traktor cislo 0
+[28.2995] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:9.78
+Combine is created.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 3.24927
+[31.5488] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[31.5565] Combine 0 was harvesting for 31.5565 minutes.9.725 km left in the field.
+ja, kombajn 0 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[31.5565]kombajn[0] ziskal traktor cislo  0 s kapacitou 3
+[33.0565]kombajn cislo 0 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:9.725
+Combine is created.
+[40.789] Combine 8 was harvesting for 12.789 minutes.9.67 km left in the field.
+ja, kombajn 8 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[40.789]kombajn[8] ziskal traktor cislo  0 s kapacitou 2
+[42.289]kombajn cislo 8 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:9.67
+Combine is created.
+[42.4226] Combine 6 was harvesting for 19.4226 minutes.9.615 km left in the field.
+ja, kombajn 6 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[42.4226]kombajn[6] ziskal traktor cislo  0 s kapacitou 1
+43.9226kombajn 6posiela traktor 0 na vandrovku
+[43.9226] aktivoval sa proces traktora (ide do skladu)
+[43.9226]kombajn cislo 6 opusta traktor cislo 0
+[43.9226] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:9.615
+Combine is created.
+[45.1995] Combine 5 was harvesting for 27.1995 minutes.9.56 km left in the field.
+ja, kombajn 5 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[45.1995]kombajn[5] ziskal traktor cislo  1 s kapacitou 2
+[46.6995]kombajn cislo 5 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:9.56
+Combine is created.
+[47.7425] Combine 7 was harvesting for 24.7425 minutes.9.505 km left in the field.
+ja, kombajn 7 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[47.7425]kombajn[7] ziskal traktor cislo  1 s kapacitou 1
+49.2425kombajn 7posiela traktor 1 na vandrovku
+[49.2425] aktivoval sa proces traktora (ide do skladu)
+[49.2425]kombajn cislo 7 opusta traktor cislo 1
+[49.2425] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:9.505
+Combine is created.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 12.5053
+[56.4279] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[62.9027] Combine 9 was harvesting for 29.9027 minutes.9.45 km left in the field.
+ja, kombajn 9 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[62.9027]kombajn[9] ziskal traktor cislo  0 s kapacitou 3
+[64.4027]kombajn cislo 9 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:9.45
+Combine is created.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 16.7987
+[66.0411] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[67.9407] Combine 13 was harvesting for 18.9407 minutes.9.395 km left in the field.
+ja, kombajn 13 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[67.9407]kombajn[13] ziskal traktor cislo  0 s kapacitou 2
+[69.0594] Combine 11 was harvesting for 26.0594 minutes.9.34 km left in the field.
+ja, kombajn 11 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[69.0594]kombajn[11] ziskal traktor cislo  1 s kapacitou 3
+[69.4407]kombajn cislo 13 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:9.34
+Combine is created.
+[70.5594]kombajn cislo 11 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:9.34
+Combine is created.
+[71.0533] Combine 12 was harvesting for 25.0533 minutes.9.285 km left in the field.
+ja, kombajn 12 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[71.0533]kombajn[12] ziskal traktor cislo  0 s kapacitou 1
+72.5533kombajn 12posiela traktor 0 na vandrovku
+[72.5533] aktivoval sa proces traktora (ide do skladu)
+[72.5533]kombajn cislo 12 opusta traktor cislo 0
+[72.5533] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:9.285
+Combine is created.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 4.50271
+[77.056] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[78.3269] Combine 10 was harvesting for 36.3269 minutes.9.23 km left in the field.
+ja, kombajn 10 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[78.3269]kombajn[10] ziskal traktor cislo  0 s kapacitou 3
+[79.8269]kombajn cislo 10 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:9.23
+Combine is created.
+[83.5033] Combine 14 was harvesting for 19.5033 minutes.9.175 km left in the field.
+ja, kombajn 14 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[83.5033]kombajn[14] ziskal traktor cislo  0 s kapacitou 2
+[85.0033]kombajn cislo 14 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:9.175
+Combine is created.
+[89.1805] Combine 17 was harvesting for 17.1805 minutes.9.12 km left in the field.
+ja, kombajn 17 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[89.1805]kombajn[17] ziskal traktor cislo  0 s kapacitou 1
+90.6805kombajn 17posiela traktor 0 na vandrovku
+[90.6805] aktivoval sa proces traktora (ide do skladu)
+[90.6805]kombajn cislo 17 opusta traktor cislo 0
+[90.6805] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:9.12
+Combine is created.
+[94.1846] Combine 16 was harvesting for 24.1846 minutes.9.06499 km left in the field.
+ja, kombajn 16 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[94.1846]kombajn[16] ziskal traktor cislo  1 s kapacitou 2
+[95.6846]kombajn cislo 16 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:9.06499
+Combine is created.
+[103.339] Combine 15 was harvesting for 34.3392 minutes.9.00999 km left in the field.
+ja, kombajn 15 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[103.339]kombajn[15] ziskal traktor cislo  1 s kapacitou 1
+104.839kombajn 15posiela traktor 1 na vandrovku
+[104.839] aktivoval sa proces traktora (ide do skladu)
+[104.839]kombajn cislo 15 opusta traktor cislo 1
+[104.839] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:9.00999
+Combine is created.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 14.4608
+[105.141] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[106.937] Combine 18 was harvesting for 27.9366 minutes.8.95499 km left in the field.
+ja, kombajn 18 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[106.937]kombajn[18] ziskal traktor cislo  0 s kapacitou 3
+[107.066] Combine 21 was harvesting for 12.0657 minutes.8.89999 km left in the field.
+[108.437]kombajn cislo 18 opusta traktor cislo 0
+niekto vystupuje z queue
+ja, kombajn 21 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[108.437]kombajn[21] ziskal traktor cislo  0 s kapacitou 2
+vytvaram combajn a fieldSize je:8.89999
+Combine is created.
+[109.937]kombajn cislo 21 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:8.89999
+Combine is created.
+[112.339] Combine 19 was harvesting for 27.3387 minutes.8.84499 km left in the field.
+ja, kombajn 19 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[112.339]kombajn[19] ziskal traktor cislo  0 s kapacitou 1
+[113.054] Combine 20 was harvesting for 23.0537 minutes.8.78999 km left in the field.
+113.839kombajn 19posiela traktor 0 na vandrovku
+[113.839] aktivoval sa proces traktora (ide do skladu)
+[113.839]kombajn cislo 19 opusta traktor cislo 0
+niekto vystupuje z queue
+[113.839] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:8.78999
+Combine is created.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 14.7615
+[119.601] traktor ide aktivovat dalsieho suhaja, queue len = 1.
+traktorovaa queue: 0x55f3d4257580
+[119.601]niekto vystupuje z queue
+ja, kombajn 20 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[119.601]kombajn[20] ziskal traktor cislo  1 s kapacitou 3
+[121.101]kombajn cislo 20 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:8.78999
+Combine is created.
+[122.224] Combine 22 was harvesting for 18.2243 minutes.8.73499 km left in the field.
+ja, kombajn 22 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[122.224]kombajn[22] ziskal traktor cislo  1 s kapacitou 2
+[123.724]kombajn cislo 22 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:8.73499
+Combine is created.
+[127.545] Combine 23 was harvesting for 19.5448 minutes.8.67999 km left in the field.
+ja, kombajn 23 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[127.545]kombajn[23] ziskal traktor cislo  1 s kapacitou 1
+129.045kombajn 23posiela traktor 1 na vandrovku
+[129.045] aktivoval sa proces traktora (ide do skladu)
+[129.045]kombajn cislo 23 opusta traktor cislo 1
+[129.045] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:8.67999
+Combine is created.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 19.8143
+[133.653] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[135.781] Combine 25 was harvesting for 22.7814 minutes.8.62499 km left in the field.
+ja, kombajn 25 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[135.781]kombajn[25] ziskal traktor cislo  0 s kapacitou 3
+[137.281]kombajn cislo 25 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:8.62499
+Combine is created.
+[138.824] Combine 26 was harvesting for 17.8244 minutes.8.56999 km left in the field.
+ja, kombajn 26 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[138.824]kombajn[26] ziskal traktor cislo  0 s kapacitou 2
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 10.255
+[139.3] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[140.324]kombajn cislo 26 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:8.56999
+Combine is created.
+[142.196] Combine 24 was harvesting for 33.1961 minutes.8.51499 km left in the field.
+ja, kombajn 24 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[142.196]kombajn[24] ziskal traktor cislo  0 s kapacitou 1
+143.696kombajn 24posiela traktor 0 na vandrovku
+[143.696] aktivoval sa proces traktora (ide do skladu)
+[143.696]kombajn cislo 24 opusta traktor cislo 0
+[143.696] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:8.51499
+Combine is created.
+[156.148] Combine 27 was harvesting for 33.1479 minutes.8.45999 km left in the field.
+ja, kombajn 27 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[156.148]kombajn[27] ziskal traktor cislo  1 s kapacitou 3
+[157.434] Combine 28 was harvesting for 28.4344 minutes.8.40499 km left in the field.
+[157.648]kombajn cislo 27 opusta traktor cislo 1
+niekto vystupuje z queue
+ja, kombajn 28 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[157.648]kombajn[28] ziskal traktor cislo  1 s kapacitou 2
+vytvaram combajn a fieldSize je:8.40499
+Combine is created.
+[159.148]kombajn cislo 28 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:8.40499
+Combine is created.
+[168.782] Combine 30 was harvesting for 28.7825 minutes.8.34999 km left in the field.
+ja, kombajn 30 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[168.782]kombajn[30] ziskal traktor cislo  1 s kapacitou 1
+[169.108] Combine 31 was harvesting for 26.1075 minutes.8.29499 km left in the field.
+170.282kombajn 30posiela traktor 1 na vandrovku
+[170.282] aktivoval sa proces traktora (ide do skladu)
+[170.282]kombajn cislo 30 opusta traktor cislo 1
+niekto vystupuje z queue
+[170.282] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:8.29499
+Combine is created.
+[176.518] Combine 29 was harvesting for 39.5175 minutes.8.23999 km left in the field.
+[177.134] Combine 33 was harvesting for 18.1336 minutes.8.18499 km left in the field.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 37.8082
+[181.504] traktor ide aktivovat dalsieho suhaja, queue len = 3.
+traktorovaa queue: 0x55f3d4257580
+[181.504]niekto vystupuje z queue
+ja, kombajn 31 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[181.504]kombajn[31] ziskal traktor cislo  0 s kapacitou 3
+[181.906] Combine 32 was harvesting for 24.906 minutes.8.12999 km left in the field.
+[183.004]kombajn cislo 31 opusta traktor cislo 0
+niekto vystupuje z queue
+ja, kombajn 29 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[183.004]kombajn[29] ziskal traktor cislo  0 s kapacitou 2
+vytvaram combajn a fieldSize je:8.12999
+Combine is created.
+[184.504]kombajn cislo 29 opusta traktor cislo 0
+niekto vystupuje z queue
+ja, kombajn 33 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[184.504]kombajn[33] ziskal traktor cislo  0 s kapacitou 1
+vytvaram combajn a fieldSize je:8.12999
+Combine is created.
+186.004kombajn 33posiela traktor 0 na vandrovku
+[186.004] aktivoval sa proces traktora (ide do skladu)
+[186.004]kombajn cislo 33 opusta traktor cislo 0
+niekto vystupuje z queue
+[186.004] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:8.12999
+Combine is created.
+[190.945] Combine 34 was harvesting for 20.9447 minutes.8.07499 km left in the field.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 21.6576
+[191.94] traktor ide aktivovat dalsieho suhaja, queue len = 2.
+traktorovaa queue: 0x55f3d4257580
+[191.94]niekto vystupuje z queue
+ja, kombajn 32 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[191.94]kombajn[32] ziskal traktor cislo  1 s kapacitou 3
+[193.44]kombajn cislo 32 opusta traktor cislo 1
+niekto vystupuje z queue
+ja, kombajn 34 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[193.44]kombajn[34] ziskal traktor cislo  1 s kapacitou 2
+vytvaram combajn a fieldSize je:8.07499
+Combine is created.
+[194.94]kombajn cislo 34 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:8.07499
+Combine is created.
+[199.1] Combine 37 was harvesting for 13.1004 minutes.8.01999 km left in the field.
+ja, kombajn 37 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[199.1]kombajn[37] ziskal traktor cislo  1 s kapacitou 1
+200.6kombajn 37posiela traktor 1 na vandrovku
+[200.6] aktivoval sa proces traktora (ide do skladu)
+[200.6]kombajn cislo 37 opusta traktor cislo 1
+[200.6] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:8.01999
+Combine is created.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 2.6144
+[203.215] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[208.246] Combine 35 was harvesting for 25.2457 minutes.7.96499 km left in the field.
+ja, kombajn 35 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[208.246]kombajn[35] ziskal traktor cislo  1 s kapacitou 3
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 23.3537
+[209.358] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[209.746]kombajn cislo 35 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:7.96499
+Combine is created.
+[212.015] Combine 36 was harvesting for 28.0153 minutes.7.90999 km left in the field.
+ja, kombajn 36 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[212.015]kombajn[36] ziskal traktor cislo  0 s kapacitou 3
+[213.515]kombajn cislo 36 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:7.90999
+Combine is created.
+[215.061] Combine 39 was harvesting for 21.0615 minutes.7.85499 km left in the field.
+ja, kombajn 39 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[215.061]kombajn[39] ziskal traktor cislo  0 s kapacitou 2
+[216.561]kombajn cislo 39 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:7.85499
+Combine is created.
+[217.15] Combine 40 was harvesting for 17.1503 minutes.7.79999 km left in the field.
+ja, kombajn 40 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[217.15]kombajn[40] ziskal traktor cislo  0 s kapacitou 1
+218.65kombajn 40posiela traktor 0 na vandrovku
+[218.65] aktivoval sa proces traktora (ide do skladu)
+[218.65]kombajn cislo 40 opusta traktor cislo 0
+[218.65] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:7.79999
+Combine is created.
+[225.999] Combine 38 was harvesting for 32.9986 minutes.7.74499 km left in the field.
+ja, kombajn 38 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[225.999]kombajn[38] ziskal traktor cislo  1 s kapacitou 2
+[227.499]kombajn cislo 38 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:7.74499
+Combine is created.
+[230.266] Combine 41 was harvesting for 21.2656 minutes.7.68999 km left in the field.
+ja, kombajn 41 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[230.266]kombajn[41] ziskal traktor cislo  1 s kapacitou 1
+231.766kombajn 41posiela traktor 1 na vandrovku
+[231.766] aktivoval sa proces traktora (ide do skladu)
+[231.766]kombajn cislo 41 opusta traktor cislo 1
+[231.766] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:7.68999
+Combine is created.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 18.929
+[237.579] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[238.121] Combine 42 was harvesting for 25.1213 minutes.7.63499 km left in the field.
+ja, kombajn 42 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[238.121]kombajn[42] ziskal traktor cislo  0 s kapacitou 3
+[239.621]kombajn cislo 42 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:7.63499
+Combine is created.
+[242.293] Combine 44 was harvesting for 24.2926 minutes.7.57999 km left in the field.
+ja, kombajn 44 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[242.293]kombajn[44] ziskal traktor cislo  0 s kapacitou 2
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 10.7931
+[242.559] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[243.793]kombajn cislo 44 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:7.57999
+Combine is created.
+[244.152] Combine 43 was harvesting for 28.1517 minutes.7.52499 km left in the field.
+ja, kombajn 43 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[244.152]kombajn[43] ziskal traktor cislo  0 s kapacitou 1
+245.652kombajn 43posiela traktor 0 na vandrovku
+[245.652] aktivoval sa proces traktora (ide do skladu)
+[245.652]kombajn cislo 43 opusta traktor cislo 0
+[245.652] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:7.52499
+Combine is created.
+[251.215] Combine 46 was harvesting for 20.2148 minutes.7.46999 km left in the field.
+ja, kombajn 46 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[251.215]kombajn[46] ziskal traktor cislo  1 s kapacitou 3
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 6.6392
+[252.291] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[252.715]kombajn cislo 46 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:7.46999
+Combine is created.
+[256.502] Combine 45 was harvesting for 29.5017 minutes.7.41499 km left in the field.
+ja, kombajn 45 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[256.502]kombajn[45] ziskal traktor cislo  0 s kapacitou 3
+[258.002]kombajn cislo 45 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:7.41499
+Combine is created.
+[261.861] Combine 47 was harvesting for 22.8606 minutes.7.35999 km left in the field.
+ja, kombajn 47 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[261.861]kombajn[47] ziskal traktor cislo  0 s kapacitou 2
+[263.361]kombajn cislo 47 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:7.35999
+Combine is created.
+[270.965] Combine 49 was harvesting for 25.9648 minutes.7.30499 km left in the field.
+ja, kombajn 49 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[270.965]kombajn[49] ziskal traktor cislo  0 s kapacitou 1
+[271.506] Combine 50 was harvesting for 19.5056 minutes.7.24999 km left in the field.
+ja, kombajn 50 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[271.506]kombajn[50] ziskal traktor cislo  1 s kapacitou 2
+272.465kombajn 49posiela traktor 0 na vandrovku
+[272.465] aktivoval sa proces traktora (ide do skladu)
+[272.465]kombajn cislo 49 opusta traktor cislo 0
+[272.465] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:7.24999
+Combine is created.
+[273.006]kombajn cislo 50 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:7.24999
+Combine is created.
+[275.832] Combine 48 was harvesting for 32.8321 minutes.7.19499 km left in the field.
+ja, kombajn 48 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[275.832]kombajn[48] ziskal traktor cislo  1 s kapacitou 1
+[276.229] Combine 51 was harvesting for 18.2293 minutes.7.13999 km left in the field.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 3.95942
+[276.424] traktor ide aktivovat dalsieho suhaja, queue len = 1.
+traktorovaa queue: 0x55f3d4257580
+[276.424]niekto vystupuje z queue
+ja, kombajn 51 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[276.424]kombajn[51] ziskal traktor cislo  0 s kapacitou 3
+277.332kombajn 48posiela traktor 1 na vandrovku
+[277.332] aktivoval sa proces traktora (ide do skladu)
+[277.332]kombajn cislo 48 opusta traktor cislo 1
+[277.332] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:7.13999
+Combine is created.
+[277.924]kombajn cislo 51 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:7.13999
+Combine is created.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 4.28515
+[281.617] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[287.534] Combine 52 was harvesting for 24.5345 minutes.7.08499 km left in the field.
+ja, kombajn 52 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[287.534]kombajn[52] ziskal traktor cislo  0 s kapacitou 2
+[289.034]kombajn cislo 52 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:7.08499
+Combine is created.
+[297.762] Combine 53 was harvesting for 25.7618 minutes.7.02999 km left in the field.
+ja, kombajn 53 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[297.762]kombajn[53] ziskal traktor cislo  0 s kapacitou 1
+299.262kombajn 53posiela traktor 0 na vandrovku
+[299.262] aktivoval sa proces traktora (ide do skladu)
+[299.262]kombajn cislo 53 opusta traktor cislo 0
+[299.262] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:7.02999
+Combine is created.
+[300.431] Combine 54 was harvesting for 27.4305 minutes.6.97499 km left in the field.
+ja, kombajn 54 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[300.431]kombajn[54] ziskal traktor cislo  1 s kapacitou 3
+[301.931]kombajn cislo 54 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:6.97499
+Combine is created.
+[304.396] Combine 55 was harvesting for 27.3957 minutes.6.91999 km left in the field.
+ja, kombajn 55 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[304.396]kombajn[55] ziskal traktor cislo  1 s kapacitou 2
+[305.896]kombajn cislo 55 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:6.91999
+Combine is created.
+[308.994] Combine 56 was harvesting for 31.9941 minutes.6.86499 km left in the field.
+ja, kombajn 56 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[308.994]kombajn[56] ziskal traktor cislo  1 s kapacitou 1
+[309.175] Combine 57 was harvesting for 20.1751 minutes.6.80999 km left in the field.
+310.494kombajn 56posiela traktor 1 na vandrovku
+[310.494] aktivoval sa proces traktora (ide do skladu)
+[310.494]kombajn cislo 56 opusta traktor cislo 1
+niekto vystupuje z queue
+[310.494] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:6.80999
+Combine is created.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 5.74175
+[316.236] traktor ide aktivovat dalsieho suhaja, queue len = 1.
+traktorovaa queue: 0x55f3d4257580
+[316.236]niekto vystupuje z queue
+ja, kombajn 57 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[316.236]kombajn[57] ziskal traktor cislo  1 s kapacitou 3
+[317.736]kombajn cislo 57 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:6.80999
+Combine is created.
+[320.004] Combine 58 was harvesting for 21.004 minutes.6.75499 km left in the field.
+ja, kombajn 58 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[320.004]kombajn[58] ziskal traktor cislo  1 s kapacitou 2
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 21.3446
+[320.606] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[321.504]kombajn cislo 58 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:6.75499
+Combine is created.
+[329.594] Combine 60 was harvesting for 24.5938 minutes.6.69999 km left in the field.
+ja, kombajn 60 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[329.594]kombajn[60] ziskal traktor cislo  0 s kapacitou 3
+[330.423] Combine 59 was harvesting for 29.4233 minutes.6.64499 km left in the field.
+ja, kombajn 59 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[330.423]kombajn[59] ziskal traktor cislo  1 s kapacitou 1
+[331.094]kombajn cislo 60 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:6.64499
+Combine is created.
+331.923kombajn 59posiela traktor 1 na vandrovku
+[331.923] aktivoval sa proces traktora (ide do skladu)
+[331.923]kombajn cislo 59 opusta traktor cislo 1
+[331.923] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:6.64499
+Combine is created.
+[333.36] Combine 61 was harvesting for 23.3599 minutes.6.58999 km left in the field.
+ja, kombajn 61 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[333.36]kombajn[61] ziskal traktor cislo  0 s kapacitou 2
+[334.86]kombajn cislo 61 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:6.58999
+Combine is created.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 4.20153
+[336.125] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[341.844] Combine 62 was harvesting for 24.8438 minutes.6.53499 km left in the field.
+ja, kombajn 62 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[341.844]kombajn[62] ziskal traktor cislo  0 s kapacitou 1
+343.344kombajn 62posiela traktor 0 na vandrovku
+[343.344] aktivoval sa proces traktora (ide do skladu)
+[343.344]kombajn cislo 62 opusta traktor cislo 0
+[343.344] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:6.53499
+Combine is created.
+[351.406] Combine 66 was harvesting for 17.4061 minutes.6.47999 km left in the field.
+ja, kombajn 66 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[351.406]kombajn[66] ziskal traktor cislo  1 s kapacitou 3
+[352.306] Combine 65 was harvesting for 21.3059 minutes.6.42499 km left in the field.
+[352.906]kombajn cislo 66 opusta traktor cislo 1
+niekto vystupuje z queue
+ja, kombajn 65 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[352.906]kombajn[65] ziskal traktor cislo  1 s kapacitou 2
+vytvaram combajn a fieldSize je:6.42499
+Combine is created.
+[354.088] Combine 64 was harvesting for 23.0875 minutes.6.36999 km left in the field.
+[354.406]kombajn cislo 65 opusta traktor cislo 1
+niekto vystupuje z queue
+ja, kombajn 64 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[354.406]kombajn[64] ziskal traktor cislo  1 s kapacitou 1
+vytvaram combajn a fieldSize je:6.36999
+Combine is created.
+355.906kombajn 64posiela traktor 1 na vandrovku
+[355.906] aktivoval sa proces traktora (ide do skladu)
+[355.906]kombajn cislo 64 opusta traktor cislo 1
+[355.906] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:6.36999
+Combine is created.
+[358.13] Combine 63 was harvesting for 37.1297 minutes.6.31499 km left in the field.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 18.6444
+[361.988] traktor ide aktivovat dalsieho suhaja, queue len = 1.
+traktorovaa queue: 0x55f3d4257580
+[361.988]niekto vystupuje z queue
+ja, kombajn 63 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[361.988]kombajn[63] ziskal traktor cislo  0 s kapacitou 3
+[362.7] Combine 67 was harvesting for 19.6998 minutes.6.25999 km left in the field.
+[363.488]kombajn cislo 63 opusta traktor cislo 0
+niekto vystupuje z queue
+ja, kombajn 67 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[363.488]kombajn[67] ziskal traktor cislo  0 s kapacitou 2
+vytvaram combajn a fieldSize je:6.25999
+Combine is created.
+[364.988]kombajn cislo 67 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:6.25999
+Combine is created.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 18.82
+[374.726] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[375.907] Combine 68 was harvesting for 23.9071 minutes.6.20499 km left in the field.
+ja, kombajn 68 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[375.907]kombajn[68] ziskal traktor cislo  0 s kapacitou 1
+377.407kombajn 68posiela traktor 0 na vandrovku
+[377.407] aktivoval sa proces traktora (ide do skladu)
+[377.407]kombajn cislo 68 opusta traktor cislo 0
+[377.407] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:6.20499
+Combine is created.
+[377.997] Combine 71 was harvesting for 14.9967 minutes.6.14999 km left in the field.
+ja, kombajn 71 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[377.997]kombajn[71] ziskal traktor cislo  1 s kapacitou 3
+[378.015] Combine 69 was harvesting for 24.0153 minutes.6.095 km left in the field.
+[379.497]kombajn cislo 71 opusta traktor cislo 1
+niekto vystupuje z queue
+ja, kombajn 69 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[379.497]kombajn[69] ziskal traktor cislo  1 s kapacitou 2
+vytvaram combajn a fieldSize je:6.095
+Combine is created.
+[380.997]kombajn cislo 69 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:6.095
+Combine is created.
+[385.451] Combine 70 was harvesting for 30.451 minutes.6.04 km left in the field.
+ja, kombajn 70 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[385.451]kombajn[70] ziskal traktor cislo  1 s kapacitou 1
+386.951kombajn 70posiela traktor 1 na vandrovku
+[386.951] aktivoval sa proces traktora (ide do skladu)
+[386.951]kombajn cislo 70 opusta traktor cislo 1
+[386.951] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:6.04
+Combine is created.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 11.484
+[388.891] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[393.404] Combine 72 was harvesting for 29.4038 minutes.5.985 km left in the field.
+ja, kombajn 72 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[393.404]kombajn[72] ziskal traktor cislo  0 s kapacitou 3
+[394.904]kombajn cislo 72 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:5.985
+Combine is created.
+[401.065] Combine 73 was harvesting for 24.0651 minutes.5.93 km left in the field.
+ja, kombajn 73 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[401.065]kombajn[73] ziskal traktor cislo  0 s kapacitou 2
+[402.565]kombajn cislo 73 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:5.93
+Combine is created.
+[402.794] Combine 74 was harvesting for 23.7937 minutes.5.875 km left in the field.
+ja, kombajn 74 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[402.794]kombajn[74] ziskal traktor cislo  0 s kapacitou 1
+404.294kombajn 74posiela traktor 0 na vandrovku
+[404.294] aktivoval sa proces traktora (ide do skladu)
+[404.294]kombajn cislo 74 opusta traktor cislo 0
+[404.294] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:5.875
+Combine is created.
+[404.952] Combine 75 was harvesting for 24.9523 minutes.5.82 km left in the field.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 1.43294
+[405.727] traktor ide aktivovat dalsieho suhaja, queue len = 1.
+traktorovaa queue: 0x55f3d4257580
+[405.727]niekto vystupuje z queue
+ja, kombajn 75 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[405.727]kombajn[75] ziskal traktor cislo  0 s kapacitou 3
+[407.227]kombajn cislo 75 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:5.82
+Combine is created.
+[413.107] Combine 76 was harvesting for 27.1066 minutes.5.765 km left in the field.
+ja, kombajn 76 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[413.107]kombajn[76] ziskal traktor cislo  0 s kapacitou 2
+[414.607]kombajn cislo 76 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:5.765
+Combine is created.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 33.2643
+[420.215] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[423.445] Combine 78 was harvesting for 21.4453 minutes.5.71 km left in the field.
+ja, kombajn 78 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[423.445]kombajn[78] ziskal traktor cislo  0 s kapacitou 1
+424.945kombajn 78posiela traktor 0 na vandrovku
+[424.945] aktivoval sa proces traktora (ide do skladu)
+[424.945]kombajn cislo 78 opusta traktor cislo 0
+[424.945] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:5.71
+Combine is created.
+[425.742] Combine 77 was harvesting for 31.7421 minutes.5.655 km left in the field.
+ja, kombajn 77 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[425.742]kombajn[77] ziskal traktor cislo  1 s kapacitou 3
+[427.242]kombajn cislo 77 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:5.655
+Combine is created.
+[428.192] Combine 79 was harvesting for 24.192 minutes.5.6 km left in the field.
+ja, kombajn 79 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[428.192]kombajn[79] ziskal traktor cislo  1 s kapacitou 2
+[429.692]kombajn cislo 79 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:5.6
+Combine is created.
+[433.099] Combine 80 was harvesting for 26.0986 minutes.5.545 km left in the field.
+ja, kombajn 80 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[433.099]kombajn[80] ziskal traktor cislo  1 s kapacitou 1
+434.599kombajn 80posiela traktor 1 na vandrovku
+[434.599] aktivoval sa proces traktora (ide do skladu)
+[434.599]kombajn cislo 80 opusta traktor cislo 1
+[434.599] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:5.545
+Combine is created.
+[439.389] Combine 81 was harvesting for 25.3892 minutes.5.49 km left in the field.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 13.2946
+[447.893] traktor ide aktivovat dalsieho suhaja, queue len = 1.
+traktorovaa queue: 0x55f3d4257580
+[447.893]niekto vystupuje z queue
+ja, kombajn 81 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[447.893]kombajn[81] ziskal traktor cislo  1 s kapacitou 3
+[449.393]kombajn cislo 81 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:5.49
+Combine is created.
+[450.268] Combine 84 was harvesting for 21.268 minutes.5.435 km left in the field.
+ja, kombajn 84 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[450.268]kombajn[84] ziskal traktor cislo  1 s kapacitou 2
+[451.481] Combine 82 was harvesting for 27.481 minutes.5.38 km left in the field.
+[451.671] Combine 83 was harvesting for 24.6707 minutes.5.325 km left in the field.
+[451.768]kombajn cislo 84 opusta traktor cislo 1
+niekto vystupuje z queue
+ja, kombajn 82 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[451.768]kombajn[82] ziskal traktor cislo  1 s kapacitou 1
+vytvaram combajn a fieldSize je:5.325
+Combine is created.
+453.268kombajn 82posiela traktor 1 na vandrovku
+[453.268] aktivoval sa proces traktora (ide do skladu)
+[453.268]kombajn cislo 82 opusta traktor cislo 1
+niekto vystupuje z queue
+[453.268] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:5.325
+Combine is created.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 29.2967
+[454.242] traktor ide aktivovat dalsieho suhaja, queue len = 1.
+traktorovaa queue: 0x55f3d4257580
+[454.242]niekto vystupuje z queue
+ja, kombajn 83 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[454.242]kombajn[83] ziskal traktor cislo  0 s kapacitou 3
+[455.742]kombajn cislo 83 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:5.325
+Combine is created.
+[461.861] Combine 85 was harvesting for 27.8611 minutes.5.27 km left in the field.
+ja, kombajn 85 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[461.861]kombajn[85] ziskal traktor cislo  0 s kapacitou 2
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 10.0678
+[463.336] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[463.361]kombajn cislo 85 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:5.27
+Combine is created.
+[467.902] Combine 87 was harvesting for 16.9017 minutes.5.215 km left in the field.
+ja, kombajn 87 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[467.902]kombajn[87] ziskal traktor cislo  0 s kapacitou 1
+469.402kombajn 87posiela traktor 0 na vandrovku
+[469.402] aktivoval sa proces traktora (ide do skladu)
+[469.402]kombajn cislo 87 opusta traktor cislo 0
+[469.402] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:5.215
+Combine is created.
+[473.61] Combine 88 was harvesting for 20.6099 minutes.5.16 km left in the field.
+ja, kombajn 88 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[473.61]kombajn[88] ziskal traktor cislo  1 s kapacitou 3
+[475.11]kombajn cislo 88 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:5.16
+Combine is created.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 8.5564
+[477.958] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[480.928] Combine 86 was harvesting for 31.9277 minutes.5.105 km left in the field.
+ja, kombajn 86 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[480.928]kombajn[86] ziskal traktor cislo  0 s kapacitou 3
+[482.428]kombajn cislo 86 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:5.105
+Combine is created.
+[483.203] Combine 89 was harvesting for 28.2035 minutes.5.05 km left in the field.
+ja, kombajn 89 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[483.203]kombajn[89] ziskal traktor cislo  0 s kapacitou 2
+[484.703]kombajn cislo 89 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:5.05
+Combine is created.
+[490.397] Combine 90 was harvesting for 27.397 minutes.4.995 km left in the field.
+ja, kombajn 90 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[490.397]kombajn[90] ziskal traktor cislo  0 s kapacitou 1
+491.897kombajn 90posiela traktor 0 na vandrovku
+[491.897] aktivoval sa proces traktora (ide do skladu)
+[491.897]kombajn cislo 90 opusta traktor cislo 0
+[491.897] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:4.995
+Combine is created.
+[492.606] Combine 91 was harvesting for 23.6064 minutes.4.94 km left in the field.
+ja, kombajn 91 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[492.606]kombajn[91] ziskal traktor cislo  1 s kapacitou 2
+[493.839] Combine 92 was harvesting for 18.839 minutes.4.885 km left in the field.
+[494.106]kombajn cislo 91 opusta traktor cislo 1
+niekto vystupuje z queue
+ja, kombajn 92 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[494.106]kombajn[92] ziskal traktor cislo  1 s kapacitou 1
+vytvaram combajn a fieldSize je:4.885
+Combine is created.
+495.606kombajn 92posiela traktor 1 na vandrovku
+[495.606] aktivoval sa proces traktora (ide do skladu)
+[495.606]kombajn cislo 92 opusta traktor cislo 1
+[495.606] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:4.885
+Combine is created.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 7.26673
+[499.164] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[501.228] Combine 93 was harvesting for 19.228 minutes.4.83 km left in the field.
+ja, kombajn 93 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[501.228]kombajn[93] ziskal traktor cislo  0 s kapacitou 3
+[502.728]kombajn cislo 93 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:4.83
+Combine is created.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 11.195
+[506.801] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[513.084] Combine 94 was harvesting for 29.0844 minutes.4.775 km left in the field.
+ja, kombajn 94 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[513.084]kombajn[94] ziskal traktor cislo  0 s kapacitou 2
+[514.584]kombajn cislo 94 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:4.775
+Combine is created.
+[514.658] Combine 95 was harvesting for 23.658 minutes.4.72 km left in the field.
+ja, kombajn 95 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[514.658]kombajn[95] ziskal traktor cislo  0 s kapacitou 1
+[515.216] Combine 96 was harvesting for 21.2163 minutes.4.665 km left in the field.
+ja, kombajn 96 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[515.216]kombajn[96] ziskal traktor cislo  1 s kapacitou 3
+516.158kombajn 95posiela traktor 0 na vandrovku
+[516.158] aktivoval sa proces traktora (ide do skladu)
+[516.158]kombajn cislo 95 opusta traktor cislo 0
+[516.158] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:4.665
+Combine is created.
+[516.716]kombajn cislo 96 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:4.665
+Combine is created.
+[518.858] Combine 97 was harvesting for 23.8579 minutes.4.61 km left in the field.
+ja, kombajn 97 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[518.858]kombajn[97] ziskal traktor cislo  1 s kapacitou 2
+[520.358]kombajn cislo 97 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:4.61
+Combine is created.
+[520.748] Combine 98 was harvesting for 18.7483 minutes.4.555 km left in the field.
+ja, kombajn 98 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[520.748]kombajn[98] ziskal traktor cislo  1 s kapacitou 1
+522.248kombajn 98posiela traktor 1 na vandrovku
+[522.248] aktivoval sa proces traktora (ide do skladu)
+[522.248]kombajn cislo 98 opusta traktor cislo 1
+[522.248] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:4.555
+Combine is created.
+[531.196] Combine 99 was harvesting for 17.1961 minutes.4.5 km left in the field.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 14.2322
+[536.481] traktor ide aktivovat dalsieho suhaja, queue len = 1.
+traktorovaa queue: 0x55f3d4257580
+[536.481]niekto vystupuje z queue
+ja, kombajn 99 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[536.481]kombajn[99] ziskal traktor cislo  1 s kapacitou 3
+[537.981]kombajn cislo 99 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:4.5
+Combine is created.
+[545.287] Combine 101 was harvesting for 29.287 minutes.4.445 km left in the field.
+ja, kombajn 101 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[545.287]kombajn[101] ziskal traktor cislo  1 s kapacitou 2
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 30.549
+[546.707] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[546.729] Combine 100 was harvesting for 30.7293 minutes.4.39 km left in the field.
+ja, kombajn 100 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[546.729]kombajn[100] ziskal traktor cislo  0 s kapacitou 3
+[546.787]kombajn cislo 101 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:4.39
+Combine is created.
+[547.362] Combine 103 was harvesting for 25.3621 minutes.4.335 km left in the field.
+ja, kombajn 103 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[547.362]kombajn[103] ziskal traktor cislo  1 s kapacitou 1
+[548.229]kombajn cislo 100 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:4.335
+Combine is created.
+548.862kombajn 103posiela traktor 1 na vandrovku
+[548.862] aktivoval sa proces traktora (ide do skladu)
+[548.862]kombajn cislo 103 opusta traktor cislo 1
+[548.862] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:4.335
+Combine is created.
+[550.544] Combine 102 was harvesting for 30.5443 minutes.4.28 km left in the field.
+ja, kombajn 102 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[550.544]kombajn[102] ziskal traktor cislo  0 s kapacitou 2
+[552.044]kombajn cislo 102 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:4.28
+Combine is created.
+[560.118] Combine 104 was harvesting for 23.1182 minutes.4.225 km left in the field.
+ja, kombajn 104 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[560.118]kombajn[104] ziskal traktor cislo  0 s kapacitou 1
+561.618kombajn 104posiela traktor 0 na vandrovku
+[561.618] aktivoval sa proces traktora (ide do skladu)
+[561.618]kombajn cislo 104 opusta traktor cislo 0
+[561.618] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:4.225
+Combine is created.
+[563.497] Combine 107 was harvesting for 15.4967 minutes.4.17 km left in the field.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 15.1948
+[564.057] traktor ide aktivovat dalsieho suhaja, queue len = 1.
+traktorovaa queue: 0x55f3d4257580
+[564.057]niekto vystupuje z queue
+ja, kombajn 107 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[564.057]kombajn[107] ziskal traktor cislo  1 s kapacitou 3
+[565.557]kombajn cislo 107 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:4.17
+Combine is created.
+[569.263] Combine 105 was harvesting for 23.2628 minutes.4.115 km left in the field.
+ja, kombajn 105 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[569.263]kombajn[105] ziskal traktor cislo  1 s kapacitou 2
+[570.763]kombajn cislo 105 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:4.115
+Combine is created.
+[571.321] Combine 108 was harvesting for 19.3214 minutes.4.06 km left in the field.
+ja, kombajn 108 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[571.321]kombajn[108] ziskal traktor cislo  1 s kapacitou 1
+572.821kombajn 108posiela traktor 1 na vandrovku
+[572.821] aktivoval sa proces traktora (ide do skladu)
+[572.821]kombajn cislo 108 opusta traktor cislo 1
+[572.821] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:4.06
+Combine is created.
+[575.128] Combine 109 was harvesting for 14.128 minutes.4.005 km left in the field.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 14.4289
+[576.047] traktor ide aktivovat dalsieho suhaja, queue len = 1.
+traktorovaa queue: 0x55f3d4257580
+[576.047]niekto vystupuje z queue
+ja, kombajn 109 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[576.047]kombajn[109] ziskal traktor cislo  0 s kapacitou 3
+[576.939] Combine 106 was harvesting for 28.9395 minutes.3.95 km left in the field.
+[577.547]kombajn cislo 109 opusta traktor cislo 0
+niekto vystupuje z queue
+ja, kombajn 106 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[577.547]kombajn[106] ziskal traktor cislo  0 s kapacitou 2
+vytvaram combajn a fieldSize je:3.95
+Combine is created.
+[579.047]kombajn cislo 106 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:3.95
+Combine is created.
+[583.82] Combine 110 was harvesting for 18.82 minutes.3.895 km left in the field.
+ja, kombajn 110 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[583.82]kombajn[110] ziskal traktor cislo  0 s kapacitou 1
+585.32kombajn 110posiela traktor 0 na vandrovku
+[585.32] aktivoval sa proces traktora (ide do skladu)
+[585.32]kombajn cislo 110 opusta traktor cislo 0
+[585.32] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:3.895
+Combine is created.
+[594.709] Combine 111 was harvesting for 24.7088 minutes.3.84 km left in the field.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 11.2454
+[596.565] traktor ide aktivovat dalsieho suhaja, queue len = 1.
+traktorovaa queue: 0x55f3d4257580
+[596.565]niekto vystupuje z queue
+ja, kombajn 111 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[596.565]kombajn[111] ziskal traktor cislo  0 s kapacitou 3
+[598.065]kombajn cislo 111 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:3.84
+Combine is created.
+[600.988] Combine 112 was harvesting for 28.9879 minutes.3.785 km left in the field.
+ja, kombajn 112 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[600.988]kombajn[112] ziskal traktor cislo  0 s kapacitou 2
+[602.488]kombajn cislo 112 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:3.785
+Combine is created.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 30.1641
+[602.986] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[603.772] Combine 115 was harvesting for 18.7719 minutes.3.73 km left in the field.
+ja, kombajn 115 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[603.772]kombajn[115] ziskal traktor cislo  0 s kapacitou 1
+605.272kombajn 115posiela traktor 0 na vandrovku
+[605.272] aktivoval sa proces traktora (ide do skladu)
+[605.272]kombajn cislo 115 opusta traktor cislo 0
+[605.272] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:3.73
+Combine is created.
+[606.974] Combine 113 was harvesting for 29.9744 minutes.3.675 km left in the field.
+ja, kombajn 113 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[606.974]kombajn[113] ziskal traktor cislo  1 s kapacitou 3
+[608.474]kombajn cislo 113 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:3.675
+Combine is created.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 9.97309
+[615.245] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[620.474] Combine 114 was harvesting for 41.4744 minutes.3.62 km left in the field.
+ja, kombajn 114 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[620.474]kombajn[114] ziskal traktor cislo  0 s kapacitou 3
+[621.974]kombajn cislo 114 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:3.62
+Combine is created.
+[623.262] Combine 116 was harvesting for 25.2622 minutes.3.565 km left in the field.
+ja, kombajn 116 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[623.262]kombajn[116] ziskal traktor cislo  0 s kapacitou 2
+[624.762]kombajn cislo 116 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:3.565
+Combine is created.
+[627.741] Combine 117 was harvesting for 25.7408 minutes.3.51 km left in the field.
+ja, kombajn 117 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[627.741]kombajn[117] ziskal traktor cislo  0 s kapacitou 1
+629.241kombajn 117posiela traktor 0 na vandrovku
+[629.241] aktivoval sa proces traktora (ide do skladu)
+[629.241]kombajn cislo 117 opusta traktor cislo 0
+[629.241] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:3.51
+Combine is created.
+[629.244] Combine 118 was harvesting for 24.2439 minutes.3.455 km left in the field.
+ja, kombajn 118 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[629.244]kombajn[118] ziskal traktor cislo  1 s kapacitou 2
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 1.41388
+[630.655] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[630.744]kombajn cislo 118 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:3.455
+Combine is created.
+[633.31] Combine 119 was harvesting for 25.3096 minutes.3.4 km left in the field.
+ja, kombajn 119 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[633.31]kombajn[119] ziskal traktor cislo  0 s kapacitou 3
+[634.81]kombajn cislo 119 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:3.4
+Combine is created.
+[641.561] Combine 121 was harvesting for 17.5607 minutes.3.345 km left in the field.
+ja, kombajn 121 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[641.561]kombajn[121] ziskal traktor cislo  0 s kapacitou 2
+[642.581] Combine 122 was harvesting for 13.5814 minutes.3.29 km left in the field.
+ja, kombajn 122 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[642.581]kombajn[122] ziskal traktor cislo  1 s kapacitou 1
+[643.061]kombajn cislo 121 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:3.29
+Combine is created.
+644.081kombajn 122posiela traktor 1 na vandrovku
+[644.081] aktivoval sa proces traktora (ide do skladu)
+[644.081]kombajn cislo 122 opusta traktor cislo 1
+[644.081] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:3.29
+Combine is created.
+[651.065] Combine 120 was harvesting for 30.0648 minutes.3.235 km left in the field.
+ja, kombajn 120 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[651.065]kombajn[120] ziskal traktor cislo  0 s kapacitou 1
+[652.038] Combine 123 was harvesting for 22.0382 minutes.3.18 km left in the field.
+652.565kombajn 120posiela traktor 0 na vandrovku
+[652.565] aktivoval sa proces traktora (ide do skladu)
+[652.565]kombajn cislo 120 opusta traktor cislo 0
+niekto vystupuje z queue
+[652.565] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:3.18
+Combine is created.
+[657.242] Combine 124 was harvesting for 23.2424 minutes.3.125 km left in the field.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 10.8472
+[663.412] traktor ide aktivovat dalsieho suhaja, queue len = 2.
+traktorovaa queue: 0x55f3d4257580
+[663.412]niekto vystupuje z queue
+ja, kombajn 123 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[663.412]kombajn[123] ziskal traktor cislo  0 s kapacitou 3
+[664.912]kombajn cislo 123 opusta traktor cislo 0
+niekto vystupuje z queue
+ja, kombajn 124 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[664.912]kombajn[124] ziskal traktor cislo  0 s kapacitou 2
+vytvaram combajn a fieldSize je:3.125
+Combine is created.
+[666.412]kombajn cislo 124 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:3.125
+Combine is created.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 23.358
+[667.439] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[667.884] Combine 126 was harvesting for 23.884 minutes.3.07 km left in the field.
+ja, kombajn 126 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[667.884]kombajn[126] ziskal traktor cislo  0 s kapacitou 1
+669.384kombajn 126posiela traktor 0 na vandrovku
+[669.384] aktivoval sa proces traktora (ide do skladu)
+[669.384]kombajn cislo 126 opusta traktor cislo 0
+[669.384] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:3.07
+Combine is created.
+[673.014] Combine 125 was harvesting for 30.0136 minutes.3.015 km left in the field.
+ja, kombajn 125 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[673.014]kombajn[125] ziskal traktor cislo  1 s kapacitou 3
+[674.514]kombajn cislo 125 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:3.015
+Combine is created.
+[685.042] Combine 127 was harvesting for 33.0425 minutes.2.96 km left in the field.
+ja, kombajn 127 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[685.042]kombajn[127] ziskal traktor cislo  1 s kapacitou 2
+[685.543] Combine 130 was harvesting for 16.5434 minutes.2.905 km left in the field.
+[686.542]kombajn cislo 127 opusta traktor cislo 1
+niekto vystupuje z queue
+ja, kombajn 130 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[686.542]kombajn[130] ziskal traktor cislo  1 s kapacitou 1
+vytvaram combajn a fieldSize je:2.905
+Combine is created.
+688.042kombajn 130posiela traktor 1 na vandrovku
+[688.042] aktivoval sa proces traktora (ide do skladu)
+[688.042]kombajn cislo 130 opusta traktor cislo 1
+[688.042] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:2.905
+Combine is created.
+[689.422] Combine 129 was harvesting for 23.4218 minutes.2.85 km left in the field.
+[690.55] Combine 128 was harvesting for 26.5499 minutes.2.795 km left in the field.
+[699.646] Combine 131 was harvesting for 25.6459 minutes.2.74 km left in the field.
+[702.954] Combine 133 was harvesting for 14.9545 minutes.2.685 km left in the field.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 15.3013
+[703.344] traktor ide aktivovat dalsieho suhaja, queue len = 4.
+traktorovaa queue: 0x55f3d4257580
+[703.344]niekto vystupuje z queue
+ja, kombajn 129 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[703.344]kombajn[129] ziskal traktor cislo  1 s kapacitou 3
+[704.844]kombajn cislo 129 opusta traktor cislo 1
+niekto vystupuje z queue
+ja, kombajn 128 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[704.844]kombajn[128] ziskal traktor cislo  1 s kapacitou 2
+vytvaram combajn a fieldSize je:2.685
+Combine is created.
+[706.344]kombajn cislo 128 opusta traktor cislo 1
+niekto vystupuje z queue
+ja, kombajn 131 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[706.344]kombajn[131] ziskal traktor cislo  1 s kapacitou 1
+vytvaram combajn a fieldSize je:2.685
+Combine is created.
+707.844kombajn 131posiela traktor 1 na vandrovku
+[707.844] aktivoval sa proces traktora (ide do skladu)
+[707.844]kombajn cislo 131 opusta traktor cislo 1
+niekto vystupuje z queue
+[707.844] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:2.685
+Combine is created.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 39.3475
+[708.731] traktor ide aktivovat dalsieho suhaja, queue len = 1.
+traktorovaa queue: 0x55f3d4257580
+[708.731]niekto vystupuje z queue
+ja, kombajn 133 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[708.731]kombajn[133] ziskal traktor cislo  0 s kapacitou 3
+[710.231]kombajn cislo 133 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:2.685
+Combine is created.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 3.10669
+[710.95] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+[718.538] Combine 132 was harvesting for 32.5377 minutes.2.63 km left in the field.
+ja, kombajn 132 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[718.538]kombajn[132] ziskal traktor cislo  0 s kapacitou 2
+[720] Shift ended
+Shift destructor
+[720.038]kombajn cislo 132 opusta traktor cislo 0
+[723.257] Combine 134 was harvesting for 19.2565 minutes.2.575 km left in the field.
+ja, kombajn 134 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[723.257]kombajn[134] ziskal traktor cislo  0 s kapacitou 1
+724.757kombajn 134posiela traktor 0 na vandrovku
+[724.757] aktivoval sa proces traktora (ide do skladu)
+[724.757]kombajn cislo 134 opusta traktor cislo 0
+[724.757] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+[726.891] Combine 137 was harvesting for 16.8914 minutes.2.52 km left in the field.
+ja, kombajn 137 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[726.891]kombajn[137] ziskal traktor cislo  1 s kapacitou 3
+[728.391]kombajn cislo 137 opusta traktor cislo 1
+[734.562] Combine 136 was harvesting for 27.5619 minutes.2.465 km left in the field.
+ja, kombajn 136 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[734.562]kombajn[136] ziskal traktor cislo  1 s kapacitou 2
+[734.628] Combine 135 was harvesting for 28.6284 minutes.2.41 km left in the field.
+[736.062]kombajn cislo 136 opusta traktor cislo 1
+niekto vystupuje z queue
+ja, kombajn 135 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[736.062]kombajn[135] ziskal traktor cislo  1 s kapacitou 1
+737.562kombajn 135posiela traktor 1 na vandrovku
+[737.562] aktivoval sa proces traktora (ide do skladu)
+[737.562]kombajn cislo 135 opusta traktor cislo 1
+[737.562] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 5.40228
+[742.964] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 20.5134
+[745.27] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4257580
+TractorFacility created
+TractorFacility created
+field size: 2.41
+[1440] Shift started
+[1440] ShifTimer started
+vytvaram combajn a fieldSize je:2.41
+Combine is created.
+vytvaram combajn a fieldSize je:2.41
+Combine is created.
+vytvaram combajn a fieldSize je:2.41
+Combine is created.
+vytvaram combajn a fieldSize je:2.41
+Combine is created.
+vytvaram combajn a fieldSize je:2.41
+Combine is created.
+[1456.83] Combine 1 was harvesting for 16.832 minutes.2.355 km left in the field.
+ja, kombajn 1 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[1456.83]kombajn[1] ziskal traktor cislo  0 s kapacitou 3
+[1458.33]kombajn cislo 1 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:2.355
+Combine is created.
+[1462.21] Combine 4 was harvesting for 22.2107 minutes.2.3 km left in the field.
+ja, kombajn 4 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[1462.21]kombajn[4] ziskal traktor cislo  0 s kapacitou 2
+[1463.71]kombajn cislo 4 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:2.3
+Combine is created.
+[1467.81] Combine 3 was harvesting for 27.8125 minutes.2.245 km left in the field.
+ja, kombajn 3 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[1467.81]kombajn[3] ziskal traktor cislo  0 s kapacitou 1
+[1469.14] Combine 0 was harvesting for 29.1375 minutes.2.19 km left in the field.
+ja, kombajn 0 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[1469.14]kombajn[0] ziskal traktor cislo  1 s kapacitou 3
+1469.31kombajn 3posiela traktor 0 na vandrovku
+[1469.31] aktivoval sa proces traktora (ide do skladu)
+[1469.31]kombajn cislo 3 opusta traktor cislo 0
+[1469.31] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:2.19
+Combine is created.
+[1470.64]kombajn cislo 0 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:2.19
+Combine is created.
+[1470.84] Combine 2 was harvesting for 30.8393 minutes.2.135 km left in the field.
+ja, kombajn 2 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[1470.84]kombajn[2] ziskal traktor cislo  1 s kapacitou 2
+[1472.34]kombajn cislo 2 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:2.135
+Combine is created.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 3.52365
+[1472.84] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4259c00
+[1483.28] Combine 5 was harvesting for 25.2841 minutes.2.08 km left in the field.
+ja, kombajn 5 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[1483.28]kombajn[5] ziskal traktor cislo  0 s kapacitou 3
+[1484.78]kombajn cislo 5 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:2.08
+Combine is created.
+[1493.3] Combine 9 was harvesting for 21.3024 minutes.2.025 km left in the field.
+ja, kombajn 9 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[1493.3]kombajn[9] ziskal traktor cislo  0 s kapacitou 2
+[1494.8]kombajn cislo 9 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:2.025
+Combine is created.
+[1496.21] Combine 6 was harvesting for 33.2142 minutes.1.97 km left in the field.
+ja, kombajn 6 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[1496.21]kombajn[6] ziskal traktor cislo  0 s kapacitou 1
+1497.71kombajn 6posiela traktor 0 na vandrovku
+[1497.71] aktivoval sa proces traktora (ide do skladu)
+[1497.71]kombajn cislo 6 opusta traktor cislo 0
+[1497.71] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:1.97
+Combine is created.
+[1500.2] Combine 8 was harvesting for 30.1982 minutes.1.915 km left in the field.
+ja, kombajn 8 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[1500.2]kombajn[8] ziskal traktor cislo  1 s kapacitou 1
+[1500.22] Combine 7 was harvesting for 31.2154 minutes.1.86 km left in the field.
+1501.7kombajn 8posiela traktor 1 na vandrovku
+[1501.7] aktivoval sa proces traktora (ide do skladu)
+[1501.7]kombajn cislo 8 opusta traktor cislo 1
+niekto vystupuje z queue
+[1501.7] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:1.86
+Combine is created.
+[1506.87] Combine 12 was harvesting for 9.87329 minutes.1.805 km left in the field.
+[1506.95] Combine 10 was harvesting for 22.9464 minutes.1.75 km left in the field.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 15.8554
+[1513.57] traktor ide aktivovat dalsieho suhaja, queue len = 3.
+traktorovaa queue: 0x55f3d4259c00
+[1513.57]niekto vystupuje z queue
+ja, kombajn 7 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[1513.57]kombajn[7] ziskal traktor cislo  0 s kapacitou 3
+[1515.07]kombajn cislo 7 opusta traktor cislo 0
+niekto vystupuje z queue
+ja, kombajn 12 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[1515.07]kombajn[12] ziskal traktor cislo  0 s kapacitou 2
+vytvaram combajn a fieldSize je:1.75
+Combine is created.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 14.4085
+[1516.11] traktor ide aktivovat dalsieho suhaja, queue len = 1.
+traktorovaa queue: 0x55f3d4259c00
+[1516.11]niekto vystupuje z queue
+ja, kombajn 10 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[1516.11]kombajn[10] ziskal traktor cislo  1 s kapacitou 3
+[1516.57]kombajn cislo 12 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:1.75
+Combine is created.
+[1517.61]kombajn cislo 10 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:1.75
+Combine is created.
+[1522.89] Combine 11 was harvesting for 28.8915 minutes.1.695 km left in the field.
+ja, kombajn 11 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[1522.89]kombajn[11] ziskal traktor cislo  0 s kapacitou 1
+1524.39kombajn 11posiela traktor 0 na vandrovku
+[1524.39] aktivoval sa proces traktora (ide do skladu)
+[1524.39]kombajn cislo 11 opusta traktor cislo 0
+[1524.39] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:1.695
+Combine is created.
+[1532.15] Combine 13 was harvesting for 31.15 minutes.1.64 km left in the field.
+ja, kombajn 13 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[1532.15]kombajn[13] ziskal traktor cislo  1 s kapacitou 2
+[1533.65]kombajn cislo 13 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:1.64
+Combine is created.
+[1537.19] Combine 15 was harvesting for 21.1937 minutes.1.585 km left in the field.
+ja, kombajn 15 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[1537.19]kombajn[15] ziskal traktor cislo  1 s kapacitou 1
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 13.4114
+[1537.8] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4259c00
+1538.69kombajn 15posiela traktor 1 na vandrovku
+[1538.69] aktivoval sa proces traktora (ide do skladu)
+[1538.69]kombajn cislo 15 opusta traktor cislo 1
+[1538.69] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:1.585
+Combine is created.
+[1541.96] Combine 14 was harvesting for 26.9552 minutes.1.53 km left in the field.
+ja, kombajn 14 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[1541.96]kombajn[14] ziskal traktor cislo  0 s kapacitou 3
+[1542.96] Combine 16 was harvesting for 25.9554 minutes.1.475 km left in the field.
+[1543.46]kombajn cislo 14 opusta traktor cislo 0
+niekto vystupuje z queue
+ja, kombajn 16 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[1543.46]kombajn[16] ziskal traktor cislo  0 s kapacitou 2
+vytvaram combajn a fieldSize je:1.475
+Combine is created.
+[1544.96]kombajn cislo 16 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:1.475
+Combine is created.
+[1547.14] Combine 17 was harvesting for 23.1441 minutes.1.42 km left in the field.
+ja, kombajn 17 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[1547.14]kombajn[17] ziskal traktor cislo  0 s kapacitou 1
+1548.64kombajn 17posiela traktor 0 na vandrovku
+[1548.64] aktivoval sa proces traktora (ide do skladu)
+[1548.64]kombajn cislo 17 opusta traktor cislo 0
+[1548.64] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:1.42
+Combine is created.
+[1550.47] Combine 18 was harvesting for 17.4729 minutes.1.365 km left in the field.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 4.3956
+[1553.04] traktor ide aktivovat dalsieho suhaja, queue len = 1.
+traktorovaa queue: 0x55f3d4259c00
+[1553.04]niekto vystupuje z queue
+ja, kombajn 18 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[1553.04]kombajn[18] ziskal traktor cislo  0 s kapacitou 3
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 15.2338
+[1553.93] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4259c00
+[1554.54]kombajn cislo 18 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:1.365
+Combine is created.
+[1563.66] Combine 19 was harvesting for 25.6573 minutes.1.31 km left in the field.
+ja, kombajn 19 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[1563.66]kombajn[19] ziskal traktor cislo  0 s kapacitou 2
+[1565.15] Combine 22 was harvesting for 17.1502 minutes.1.255 km left in the field.
+ja, kombajn 22 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[1565.15]kombajn[22] ziskal traktor cislo  1 s kapacitou 3
+[1565.16]kombajn cislo 19 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:1.255
+Combine is created.
+[1566.65]kombajn cislo 22 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:1.255
+Combine is created.
+[1571.16] Combine 21 was harvesting for 27.1616 minutes.1.2 km left in the field.
+ja, kombajn 21 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[1571.16]kombajn[21] ziskal traktor cislo  0 s kapacitou 1
+1572.66kombajn 21posiela traktor 0 na vandrovku
+[1572.66] aktivoval sa proces traktora (ide do skladu)
+[1572.66]kombajn cislo 21 opusta traktor cislo 0
+[1572.66] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:1.2
+Combine is created.
+[1577.68] Combine 20 was harvesting for 34.6789 minutes.1.145 km left in the field.
+ja, kombajn 20 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[1577.68]kombajn[20] ziskal traktor cislo  1 s kapacitou 2
+[1578.38] Combine 23 was harvesting for 24.3808 minutes.1.09 km left in the field.
+[1579.18]kombajn cislo 20 opusta traktor cislo 1
+niekto vystupuje z queue
+ja, kombajn 23 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[1579.18]kombajn[23] ziskal traktor cislo  1 s kapacitou 1
+vytvaram combajn a fieldSize je:1.09
+Combine is created.
+1580.68kombajn 23posiela traktor 1 na vandrovku
+[1580.68] aktivoval sa proces traktora (ide do skladu)
+[1580.68]kombajn cislo 23 opusta traktor cislo 1
+[1580.68] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:1.09
+Combine is created.
+[1583.96] Combine 25 was harvesting for 17.9599 minutes.1.035 km left in the field.
+[1588.96] Combine 24 was harvesting for 23.9601 minutes.0.98 km left in the field.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 18.7058
+[1591.37] traktor ide aktivovat dalsieho suhaja, queue len = 2.
+traktorovaa queue: 0x55f3d4259c00
+[1591.37]niekto vystupuje z queue
+ja, kombajn 25 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[1591.37]kombajn[25] ziskal traktor cislo  0 s kapacitou 3
+[1592.7] Combine 26 was harvesting for 20.697 minutes.0.925 km left in the field.
+[1592.87]kombajn cislo 25 opusta traktor cislo 0
+niekto vystupuje z queue
+ja, kombajn 24 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[1592.87]kombajn[24] ziskal traktor cislo  0 s kapacitou 2
+vytvaram combajn a fieldSize je:0.925
+Combine is created.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 13.5357
+[1594.21] traktor ide aktivovat dalsieho suhaja, queue len = 1.
+traktorovaa queue: 0x55f3d4259c00
+[1594.21]niekto vystupuje z queue
+ja, kombajn 26 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[1594.21]kombajn[26] ziskal traktor cislo  1 s kapacitou 3
+[1594.37]kombajn cislo 24 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:0.925
+Combine is created.
+[1595.71]kombajn cislo 26 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:0.925
+Combine is created.
+[1600.96] Combine 27 was harvesting for 21.9593 minutes.0.87 km left in the field.
+ja, kombajn 27 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[1600.96]kombajn[27] ziskal traktor cislo  0 s kapacitou 1
+1602.46kombajn 27posiela traktor 0 na vandrovku
+[1602.46] aktivoval sa proces traktora (ide do skladu)
+[1602.46]kombajn cislo 27 opusta traktor cislo 0
+[1602.46] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:0.87
+Combine is created.
+[1604.6] Combine 28 was harvesting for 24.5982 minutes.0.815 km left in the field.
+ja, kombajn 28 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[1604.6]kombajn[28] ziskal traktor cislo  1 s kapacitou 2
+[1606.1]kombajn cislo 28 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:0.815
+Combine is created.
+[1607.79] Combine 31 was harvesting for 12.7865 minutes.0.76 km left in the field.
+ja, kombajn 31 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[1607.79]kombajn[31] ziskal traktor cislo  1 s kapacitou 1
+1609.29kombajn 31posiela traktor 1 na vandrovku
+[1609.29] aktivoval sa proces traktora (ide do skladu)
+[1609.29]kombajn cislo 31 opusta traktor cislo 1
+[1609.29] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:0.76
+Combine is created.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 12.67
+[1615.13] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4259c00
+[1615.55] Combine 29 was harvesting for 23.5483 minutes.0.705 km left in the field.
+ja, kombajn 29 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[1615.55]kombajn[29] ziskal traktor cislo  0 s kapacitou 3
+[1617.05]kombajn cislo 29 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:0.705
+Combine is created.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 8.75101
+[1618.04] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4259c00
+[1620.87] Combine 30 was harvesting for 26.8683 minutes.0.65 km left in the field.
+ja, kombajn 30 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[1620.87]kombajn[30] ziskal traktor cislo  0 s kapacitou 2
+[1622.37]kombajn cislo 30 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:0.65
+Combine is created.
+[1625.51] Combine 32 was harvesting for 23.5079 minutes.0.595 km left in the field.
+ja, kombajn 32 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[1625.51]kombajn[32] ziskal traktor cislo  0 s kapacitou 1
+1627.01kombajn 32posiela traktor 0 na vandrovku
+[1627.01] aktivoval sa proces traktora (ide do skladu)
+[1627.01]kombajn cislo 32 opusta traktor cislo 0
+[1627.01] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:0.595
+Combine is created.
+[1634.04] Combine 34 was harvesting for 25.0357 minutes.0.54 km left in the field.
+ja, kombajn 34 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[1634.04]kombajn[34] ziskal traktor cislo  1 s kapacitou 3
+[1635.54]kombajn cislo 34 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:0.54
+Combine is created.
+[1635.91] Combine 33 was harvesting for 29.9141 minutes.0.485 km left in the field.
+ja, kombajn 33 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[1635.91]kombajn[33] ziskal traktor cislo  1 s kapacitou 2
+[1637.41]kombajn cislo 33 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:0.485
+Combine is created.
+[1640.69] Combine 35 was harvesting for 23.6887 minutes.0.43 km left in the field.
+ja, kombajn 35 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[1640.69]kombajn[35] ziskal traktor cislo  1 s kapacitou 1
+1642.19kombajn 35posiela traktor 1 na vandrovku
+[1642.19] aktivoval sa proces traktora (ide do skladu)
+[1642.19]kombajn cislo 35 opusta traktor cislo 1
+[1642.19] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:0.43
+Combine is created.
+[1643.81] Combine 36 was harvesting for 21.8114 minutes.0.375 km left in the field.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 21.1063
+[1648.11] traktor ide aktivovat dalsieho suhaja, queue len = 1.
+traktorovaa queue: 0x55f3d4259c00
+[1648.11]niekto vystupuje z queue
+ja, kombajn 36 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[1648.11]kombajn[36] ziskal traktor cislo  0 s kapacitou 3
+[1649.61]kombajn cislo 36 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:0.375
+Combine is created.
+[1652.8] Combine 39 was harvesting for 15.7959 minutes.0.32 km left in the field.
+ja, kombajn 39 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[1652.8]kombajn[39] ziskal traktor cislo  0 s kapacitou 2
+[1654.3]kombajn cislo 39 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:0.32
+Combine is created.
+TRAKTOR 1 VYSYPAL, trvalo mu to cele aj s cestou 12.4061
+[1654.59] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4259c00
+[1656.36] Combine 40 was harvesting for 14.3579 minutes.0.265 km left in the field.
+ja, kombajn 40 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 1
+[1656.36]kombajn[40] ziskal traktor cislo  0 s kapacitou 1
+1657.86kombajn 40posiela traktor 0 na vandrovku
+[1657.86] aktivoval sa proces traktora (ide do skladu)
+[1657.86]kombajn cislo 40 opusta traktor cislo 0
+[1657.86] traktor 0 ziskal traktorovu facility
+TRAKTOR 0 SYPE
+vytvaram combajn a fieldSize je:0.265
+Combine is created.
+[1662.27] Combine 37 was harvesting for 35.274 minutes.0.21 km left in the field.
+ja, kombajn 37 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 3
+[1662.27]kombajn[37] ziskal traktor cislo  1 s kapacitou 3
+[1662.86] Combine 38 was harvesting for 27.8611 minutes.0.155 km left in the field.
+[1663.77]kombajn cislo 37 opusta traktor cislo 1
+niekto vystupuje z queue
+ja, kombajn 38 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 2
+[1663.77]kombajn[38] ziskal traktor cislo  1 s kapacitou 2
+vytvaram combajn a fieldSize je:0.155
+Combine is created.
+[1665.27]kombajn cislo 38 opusta traktor cislo 1
+vytvaram combajn a fieldSize je:0.155
+Combine is created.
+TRAKTOR 0 VYSYPAL, trvalo mu to cele aj s cestou 16.5553
+[1674.41] traktor ide aktivovat dalsieho suhaja, queue len = 0.
+traktorovaa queue: 0x55f3d4259c00
+[1676.69] Combine 41 was harvesting for 27.6915 minutes.0.1 km left in the field.
+ja, kombajn 41 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 3
+[1676.69]kombajn[41] ziskal traktor cislo  0 s kapacitou 3
+[1677.99] Combine 43 was harvesting for 20.9907 minutes.0.045 km left in the field.
+ja, kombajn 43 som nasiel som volny vo for loope s cislom 1, a ma kapacitu   -> 1
+[1677.99]kombajn[43] ziskal traktor cislo  1 s kapacitou 1
+[1678.19]kombajn cislo 41 opusta traktor cislo 0
+vytvaram combajn a fieldSize je:0.045
+Combine is created.
+1679.49kombajn 43posiela traktor 1 na vandrovku
+[1679.49] aktivoval sa proces traktora (ide do skladu)
+[1679.49]kombajn cislo 43 opusta traktor cislo 1
+[1679.49] traktor 1 ziskal traktorovu facility
+TRAKTOR 1 SYPE
+vytvaram combajn a fieldSize je:0.045
+Combine is created.
+[1682.56] Combine 44 was harvesting for 19.5614 minutes.0 km left in the field.
+ja, kombajn 44 som nasiel som volny vo for loope s cislom 0, a ma kapacitu   -> 2
+[1682.56]kombajn[44] ziskal traktor cislo  0 s kapacitou 2
+[1684.06]kombajn cislo 44 opusta traktor cislo 0
+[1684.06] Harvest is done.
+Shift destructor
+TractorFacility created
+TractorFacility created
+#
+# SIMLIB run-time statistics:
+#    StartTime  = 0
+#    EndTime    = -1
+#    EventCount = 1022
+#    StepCount  = 0
+#
+====================================================
+Harvest class destructor
+Shift destructor
+#
+# SIMLIB run-time statistics:
+#    StartTime  = 0
+#    EndTime    = 1684.06
+#    EventCount = 1023
+#    StepCount  = 0
+#
+SIMUATION FINISHED
+------------------------

@@ -19,6 +19,7 @@ using namespace std;
 int main(int argc, char *argv[]) {
 
     srand((unsigned int)time(NULL));
+    RandomSeed(time(nullptr));
 
     unsigned long num_conbines = NUM_OF_COMBINES; 
     unsigned int num_tractors = NUM_OF_TRACTORS;
@@ -47,13 +48,22 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    cout << "Number of combines: " << num_conbines << endl;
-    cout << "Number of tractors: " << num_tractors << endl;
 
-    Init(START_TIME, END_TIME);
-    (new Harvest(num_conbines, num_tractors, FIELD_SIZE))->Activate();
-    Run();
-    SIMLIB_statistics.Output();
+    cout << "------------------------" << endl;
+    cout << "SIMULATION START ty coco" << endl;
+
+    //for(int i = 0; i < 5; i++){
+        cout << "RUN NUMBER " << /*i << */ "." << endl;
+        Init(START_TIME, END_TIME);
+        (new Harvest(num_conbines, num_tractors, FIELD_SIZE))->Activate();
+        Run();
+        SIMLIB_statistics.Output();
+    //}
+
+    cout << "SIMUATION FINISHED" << endl;
+    cout << "------------------------" << endl;
+
+
     
 
     return 0;

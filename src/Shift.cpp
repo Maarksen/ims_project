@@ -11,7 +11,24 @@
 
 using namespace std;
 
-Shift::Shift(Harvest* harvest, Store* shifts, Queue *queue) : harvest(harvest), shifts(shifts), queue(queue) {
+Shift::Shift(Harvest* harvest,
+             Store* shifts, 
+             Queue *queue, 
+             Stat *statCombineNumRuns,
+             Stat *statCombineHarvestDuration,
+             Stat *statCombineWaitDuration,
+             Stat *statTractorDumbingDuration,
+             Stat *statTractorNumRuns
+             ): 
+             harvest(harvest), 
+             shifts(shifts), 
+             queue(queue),
+             statCombineNumRuns(statCombineNumRuns),
+             statCombineHarvestDuration(statCombineHarvestDuration),
+             statCombineWaitDuration(statCombineWaitDuration),
+             statTractorDumpingDuration(statTractorDumbingDuration),
+             statTractorNumRuns(statTractorNumRuns) 
+{
 
 
     this->combines = new Store("Combine store", harvest->num_combines);
@@ -25,9 +42,11 @@ Shift::Shift(Harvest* harvest, Store* shifts, Queue *queue) : harvest(harvest), 
     this->tractorFacilities = tractorFacilities;
 
     // Create TractorFacility instances
-    for (int i = 0; i < harvest->num_tractors; i++) {
+    for (int i = 0; i < (int)harvest->num_tractors; i++) {
     tractorFacilities[i] = new TractorFacility();
     }
+
+    //statCombineNumRuns = new Stat("Combine number of runs");
     
 }
 
@@ -35,14 +54,17 @@ void Shift::Behavior() {
 
     cout << "[" << Time << "]" << " Shift started" << endl;
 
-    ShiftTimer *shift_timer = new ShiftTimer(this, *shifts);
+    //ShiftTimer *shift_timer = new ShiftTimer(this, *shifts);
+    new ShiftTimer(this, *shifts);
     // TractorFacility *tractor = new TractorFacility();
     
     int comb_num = 0;
     Enter(*combines, harvest->num_combines);
-    for(int i = 0; i < harvest->num_combines; i++){
+    for(int i = 0; i < (int)harvest->num_combines; i++){
             cout << "vytvaram combajn a fieldSize je:" << harvest->field_size << endl;
-            (new Combine(comb_num++, this->combines, this))->Activate();
+            (new Combine(this,comb_num++, this->combines,
+            statCombineNumRuns, statCombineHarvestDuration,
+            statCombineWaitDuration, statTractorDumpingDuration, statTractorNumRuns))->Activate();
     }
     while(*fieldSize > 0){
 
@@ -52,16 +74,10 @@ void Shift::Behavior() {
         if(*fieldSize == 0){
             break;
         }
-        // cout << "vytvaram combajn a fieldSize je:" << harvest->field_size << endl;
-        //for(int i = 0; i < harvest->num_combines; i++){
             cout << "vytvaram combajn a fieldSize je:" << harvest->field_size << endl;
-            (new Combine(comb_num++, this->combines, this))->Activate();
-        //}
-        // Combine *combine1 = (new Combine(comb_num++, this->combines, this->fieldSize, tractor));
-        // Combine *combine2 = (new Combine(comb_num++, this->combines, this->fieldSize, tractor));
-        // combine1->Activate();       
-        // combine2->Activate();       
-        
+            (new Combine( this,comb_num++, this->combines,
+            statCombineNumRuns, statCombineHarvestDuration,
+            statCombineWaitDuration, statTractorDumpingDuration, statTractorNumRuns))->Activate();
         
     }
     Leave(*shifts, 1);

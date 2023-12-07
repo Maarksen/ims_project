@@ -3,37 +3,56 @@
 #include <iostream>
 #include "Shift.hpp"
 
-
-
-
 using namespace std;
 
-Tractor::Tractor(Shift *shift, Priority_t priority)
-    : shift(shift), Process(priority)  {
+Tractor::Tractor(Priority_t priority, 
+                 Shift *shift, 
+                 Stat *statTractorDumpingTime, 
+                 Stat *statTractorNumRuns,
+                 int fullTractor
+                 ):
+                 Process(priority), 
+                 shift(shift), 
+                 statTractorDumpingDuration(statTractorDumpingDuration), 
+                 statTractorNumRuns(statTractorNumRuns),
+                 fullTractor(fullTractor)
+{
     cout << "[" << Time << "]"
          << " aktivoval sa proces traktora (ide do skladu)" << endl;
 }
 
-void Tractor::Behavior() {
+void Tractor::Behavior()
+
+{
     float start_time = Time;
-    int k = -1;
-back:
-    for (int i = 0; i < 2; i++) {
-        if (!shift->tractorFacilities[i]->Busy()) {
-            k = i;
-            break;
-        }
-    }
+    Seize (*shift->tractorFacilities[fullTractor]);
+//     
+//     int k = -1;
+// back:
+//     cout << "[" << Time << "]"
+//          << " traktor zacina svoj for loop" << endl;
+//     for (int i = 0; i < 2; i++)
+//     {
+//         if (!shift->tractorFacilities[i]->Busy() && shift->tractorFacilities[i]->capacity == 0)
+//         {
+//             k = i;
+//             break;
+//         }
+//     }
 
-    if (k == -1) {
-        Into(shift->queue);
-        Passivate();
-        goto back;
-    }
+//     if (k == -1)
+//     {
+//         cout << shift->queue << endl;
+//         cout << " niekto vystupuje z queue" << endl;
+//         Into(shift->queue);
+//         Passivate();
+//         goto back;
+//     }
+    cout << "[" << Time << "]"
+         << " traktor " << fullTractor << " ziskal traktorovu facility"<< endl;
+    // Seize(*shift->tractorFacilities[k]);
 
-    Seize(*shift->tractorFacilities[k]);
-
-    cout << "TRAKTOR " << k << " SYPE" << endl;
+    cout << "TRAKTOR " <<  fullTractor<< " SYPE" << endl;
 
     // traktor ide do skladu
     Wait(Exponential(6));
@@ -43,20 +62,23 @@ back:
 
     // tractor sa vracia naspat
     Wait(Exponential(6));
-    shift->tractorFacilities[k]->capacity = 3;
+    shift->tractorFacilities[fullTractor]->capacity = 3;
 
-    cout << "TRAKTOR " << k << " VYSYPAL, trvalo mu to cele aj s cestou " << Time - start_time << endl;
-    Release(*shift->tractorFacilities[k]);
+    cout << "TRAKTOR " << fullTractor<< " VYSYPAL, trvalo mu to cele aj s cestou " << Time - start_time << endl;
+    Release(*shift->tractorFacilities[fullTractor]);
 
     cout << "[" << Time << "]";
-    cout  << " traktor ide aktivovat dalsieho suhaja, queue len = " << shift->queue->Length() << "." << endl;
-    if (shift->queue->Length() > 0) {
+    cout << " traktor ide aktivovat dalsieho suhaja, queue len = " << shift->queue->Length() << "." << endl;
+    cout << "traktorovaa queue: " << shift->queue << endl;
+    if (shift->queue->Length() > 0)
+    {
         cout << "[" << Time << "]"
-             << " traktor aktivoval dalsieho suhaja" << endl;
-        shift->queue->GetFirst()->Activate();
+             << "niekto vystupuje z queue" << endl;
+        (shift->queue->GetFirst())->Activate();
     }
 }
 
-Tractor::~Tractor() {
+Tractor::~Tractor()
+{
     // Destructor implementation
 }

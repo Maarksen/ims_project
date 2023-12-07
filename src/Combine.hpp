@@ -10,7 +10,15 @@
 
 class Combine : public Process {
 public:
-    Combine(int num, Store *combines, Shift *shift);
+    Combine( Shift *shift,
+             int num,
+             Store *combines,
+             Stat *statCombineNumRuns,
+             Stat *statCombineHarvestDuration,
+             Stat *statCombineWaitDuration,
+             Stat *statTractorDumpingDuration,
+             Stat *statTractorNumRuns
+             );
 
     void Behavior() override;
 
@@ -22,6 +30,14 @@ private:
     int num;
     Store *combines;
     float *fieldSize;
+    //stats
+    //kombajn 
+    Stat *statCombineNumRuns;
+    Stat *statCombineHarvestDuration;
+    Stat *statCombineWaitDuration;
+    //traktor
+    Stat *statTractorDumpingDuration;
+    Stat *statTractorNumRuns;
 };
 
 #endif // COMBINE_HPP

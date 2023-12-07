@@ -9,19 +9,34 @@ class Harvest;
 
 class Shift : public Process {
 public:
-    Shift(Harvest *harvest, Store *shifts, Queue *queue);
+    Shift(Harvest *harvest,
+          Store *shifts,
+          Queue *queue,
+          Stat *statCombineNumRuns,
+          Stat *statCombineHarvestDuration,
+          Stat *statCombineWaitDuration,
+          Stat *statTractorDumpingDuration,
+          Stat *statTractorNumRuns
+          );
 
     void Behavior() override;
 
     ~Shift() override;
 
-    TractorFacility **tractorFacilities;
-    Queue *queue;
-    Store *combines;
-    Store *tractors;
     Harvest *harvest;
     Store *shifts;
+    Queue *queue;
+    TractorFacility **tractorFacilities;
+    Store *combines;
+    Store *tractors;
     float *fieldSize;
+
+    Stat *statCombineNumRuns;
+    Stat *statCombineHarvestDuration;
+    Stat *statCombineWaitDuration;
+
+    Stat *statTractorDumpingDuration;
+    Stat *statTractorNumRuns;
 
 private:
 };

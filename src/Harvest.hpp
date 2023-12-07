@@ -26,6 +26,15 @@ class Harvest : public Process {
         //Combine** combines;
 
         Store *shifts;
+
+        //stats
+        //kombajn
+        Stat *statCombineNumRuns;
+        Stat *statCombineHarvestDuration;
+        Stat *statCombineWaitDuration;
+        //traktor
+        Stat *statTractorDumpingDuration;
+        Stat *statTractorNumRuns;
         
 
 };

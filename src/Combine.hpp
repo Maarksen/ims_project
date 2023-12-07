@@ -1,29 +1,27 @@
 #ifndef COMBINE_HPP
 #define COMBINE_HPP
 
-#include <simlib.h>
 #include "TractorFacility.hpp"
 
+#include <simlib.h>
+#include "Shift.hpp"
+#include "Tractor.hpp"
+ class Shift;
+
 class Combine : public Process {
-    public:
-        Combine(int num, Store *combines , float* fieldSize, TractorFacility *tractors);
+public:
+    Combine(int num, Store *combines, Shift *shift);
 
-        void Behavior() override;
+    void Behavior() override;
 
-        ~Combine() override;
+    ~Combine() override;
 
-        float* fieldSize;
+    Shift *shift;
 
-        Priority_t Priority = 0;
-
-        TractorFacility *tractors;
-
-        int num;
-
-
-    private:
-
+private:
+    int num;
     Store *combines;
+    float *fieldSize;
 };
 
-#endif // COMBINE_HPP 
+#endif // COMBINE_HPP

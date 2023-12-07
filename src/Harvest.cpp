@@ -32,7 +32,7 @@ void Harvest::Behavior() {
 
             Enter (*shifts, 1);
 
-            (new Shift(this,this->shifts))->Activate();
+            (new Shift(this,this->shifts, new Queue()))->Activate();
         }
         else{
             Wait(24);

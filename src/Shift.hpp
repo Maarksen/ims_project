@@ -1,36 +1,29 @@
 #ifndef SHIFT_HPP
 #define SHIFT_HPP
 
+#include <simlib.h>  
 #include "Harvest.hpp"
+#include "Tractor.hpp"
 
-#include <simlib.h>
+class Harvest;
 
 class Shift : public Process {
 public:
-    // Constructor
-    Shift(Harvest* harvest, Store *shifts);
+    Shift(Harvest *harvest, Store *shifts, Queue *queue);
 
-    // Behavior function
     void Behavior() override;
 
     ~Shift() override;
 
+    TractorFacility **tractorFacilities;
+    Queue *queue;
+    Store *combines;
+    Store *tractors;
+    Harvest *harvest;
     Store *shifts;
-
     float *fieldSize;
 
-    TractorFacility **tractorFacilities;
-
-
-
 private:
-    Harvest* harvest; 
-
-    Store *combines;
-
-    Store *tractors;
-
-    static const unsigned long SHIFT_TIME = 12;
 };
 
 #endif // SHIFT_HPP

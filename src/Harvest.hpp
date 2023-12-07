@@ -23,7 +23,7 @@ class Harvest : public Process {
         unsigned long harvested_size;
         bool isShift;
 
-        Combine** combines;
+        //Combine** combines;
 
         Store *shifts;
         

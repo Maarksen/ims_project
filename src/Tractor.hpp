@@ -1,23 +1,21 @@
 #ifndef TRACTOR_HPP
-#define TRACTOR_HPP
+#define TRACTOR_HPP   
 
 #include <simlib.h>
-#include "TractorFacility.hpp"
+#include "Shift.hpp"
 
+class Shift;
 class Tractor : public Process {
-    public:
-        Tractor(TractorFacility *tractor);
+public:
+    Tractor(Shift *shift, Priority_t priority);
 
-        void Behavior() override;
-        ~Tractor() ;
+    void Behavior() override;
 
-        Priority_t Priority = 1;
-        
-        TractorFacility *tractor;
+    ~Tractor() override;
+    Shift *shift;
 
-    private:
-
-
+private:
+    Queue *queue;
 };
 
 #endif // TRACTOR_HPP

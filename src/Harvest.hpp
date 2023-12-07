@@ -17,6 +17,7 @@ class Harvest : public Process {
         unsigned int num_tractors;
 
         float field_size;
+        float beginningFieldSize;
         
 
     private:
@@ -35,6 +36,8 @@ class Harvest : public Process {
         //traktor
         Stat *statTractorDumpingDuration;
         Stat *statTractorNumRuns;
+
+        Stat *statWhetaherRecord;
         
 
 };

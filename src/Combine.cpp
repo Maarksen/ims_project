@@ -33,31 +33,35 @@ void Combine::Behavior()
 {
     //number of combine runs in total in one shift
     (*statCombineNumRuns)(1);
-    long time_started = Time;
     int number = num;
     float harvestTime = Normal(24,6);
 
-    //duration of harvesting of a combine
-    (*statCombineHarvestDuration)(harvestTime);
+   //storing the time when the combine started harvesting
+    long startedHarvest = Time;
+
+    //duration of harvesting
     Wait(harvestTime);
 
+    //storing the stat of harvesting duration
+    (*statCombineHarvestDuration)(Time - startedHarvest);
 
+    //storiing the time when the combine started waiting for the tractor
+    long startedWaiting = Time;
+
+
+    //if the field is smaller than then capacity of one harvest, we set the 
+    //remaining field size to 0
     if (*fieldSize < 0.055)
     {
         *fieldSize = 0;
     }
     else
     {
-        *fieldSize -= 0.055; //* harvest_time/60;
+        *fieldSize -= 0.055; 
     }
 
     cout << "[" << Time << "]";
-    cout << " Combine " << number << " was harvesting for " << Time - time_started << " minutes." << *fieldSize << " km left in the field." << endl;
 
-    // cout << "capacity of the tractor before dumping :" << tractors->capacity <<  endl;
-    //long waiting_time = Time;
-
-    // kombajn sa snazi ziskat traktor
 
     int k = -1;
 back:
@@ -77,10 +81,16 @@ back:
         Passivate();
         goto back;
     }
+
+    //storing the stat of waiting for the tractor
+    (*statCombineWaitDuration)(Time - startedWaiting);
     Seize(*shift->tractorFacilities[k]);
+
+ 
     cout << "[" << Time << "]"
          << "kombajn[" << number << "] ziskal traktor cislo  " << k << " s kapacitou " << shift->tractorFacilities[k]->capacity << endl;
-    // vysypu sa
+
+    //dumping the grain out of the tractor  (90sec)
     shift->tractorFacilities[k]->capacity -= 1;
     Wait(1.5);
 

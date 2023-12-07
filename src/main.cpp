@@ -12,7 +12,7 @@
 #define NUM_OF_TRACTORS 2
 
 //field size in kilometres squared
-#define FIELD_SIZE 10.0 // 10km^2
+#define FIELD_SIZE 100.0 // 10km^2
 
 using namespace std;
 
@@ -50,15 +50,16 @@ int main(int argc, char *argv[]) {
 
 
     cout << "------------------------" << endl;
-    cout << "SIMULATION START ty coco" << endl;
+    cout << "SIMULATION START" << endl;
 
-    //for(int i = 0; i < 5; i++){
-        cout << "RUN NUMBER " << /*i << */ "." << endl;
+    for(int i = 1; i <= 5; i++){
+        cout << "RUN NUMBER " << i << "." << endl;
         Init(START_TIME, END_TIME);
         (new Harvest(num_conbines, num_tractors, FIELD_SIZE))->Activate();
         Run();
+        cout << "RUN NUMBER " << i << ". STATISTICS" << endl;
         SIMLIB_statistics.Output();
-    //}
+    }
 
     cout << "SIMUATION FINISHED" << endl;
     cout << "------------------------" << endl;

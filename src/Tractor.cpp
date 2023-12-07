@@ -26,33 +26,14 @@ void Tractor::Behavior()
 {
     float start_time = Time;
     Seize (*shift->tractorFacilities[fullTractor]);
-//     
-//     int k = -1;
-// back:
-//     cout << "[" << Time << "]"
-//          << " traktor zacina svoj for loop" << endl;
-//     for (int i = 0; i < 2; i++)
-//     {
-//         if (!shift->tractorFacilities[i]->Busy() && shift->tractorFacilities[i]->capacity == 0)
-//         {
-//             k = i;
-//             break;
-//         }
-//     }
 
-//     if (k == -1)
-//     {
-//         cout << shift->queue << endl;
-//         cout << " niekto vystupuje z queue" << endl;
-//         Into(shift->queue);
-//         Passivate();
-//         goto back;
-//     }
     cout << "[" << Time << "]"
          << " traktor " << fullTractor << " ziskal traktorovu facility"<< endl;
     // Seize(*shift->tractorFacilities[k]);
 
     cout << "TRAKTOR " <<  fullTractor<< " SYPE" << endl;
+
+    long startedDumping = Time;
 
     // traktor ide do skladu
     Wait(Exponential(6));
@@ -65,6 +46,7 @@ void Tractor::Behavior()
     shift->tractorFacilities[fullTractor]->capacity = 3;
 
     cout << "TRAKTOR " << fullTractor<< " VYSYPAL, trvalo mu to cele aj s cestou " << Time - start_time << endl;
+    (*statTractorDumpingDuration) (Time - startedDumping);
     Release(*shift->tractorFacilities[fullTractor]);
 
     cout << "[" << Time << "]";

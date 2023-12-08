@@ -13,7 +13,6 @@ Combine::Combine(Shift *shift,
                  Stat *statCombineNumRuns, 
                  Stat *CombineHarvestDuration,
                  Stat *CombineWaitDuration,
-                 Stat *TractorDumpingDuration,
                  Stat *TractorNumRuns,
                  Stat *statQueueOcupancy
                  ):
@@ -23,7 +22,6 @@ Combine::Combine(Shift *shift,
                  statCombineNumRuns(statCombineNumRuns),
                  statCombineHarvestDuration(CombineHarvestDuration),
                  statCombineWaitDuration(CombineWaitDuration),
-                 statTractorDumpingDuration(TractorDumpingDuration),
                  statTractorNumRuns(TractorNumRuns),
                  statQueueOcupancy(statQueueOcupancy)
 {
@@ -34,7 +32,6 @@ void Combine::Behavior()
 {
     // number of combine runs in total in one shift
     (*statCombineNumRuns)(1);
-    int number = num;
     float harvestTime = Normal(24,6);
 
    // storing the time when the combine started harvesting
@@ -96,7 +93,7 @@ back:
     // if the tractor is full, it goes to the storage to dump the grain
     if (shift->tractorFacilities[k]->capacity == 0)
     {
-        (new Tractor(1,this->shift, statTractorDumpingDuration, statTractorNumRuns, k))->Activate();
+        (new Tractor(1,this->shift, statTractorNumRuns, k))->Activate();
     }
 
     Release(*shift->tractorFacilities[k]);

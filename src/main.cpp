@@ -11,6 +11,8 @@
 #define NUM_OF_DAYS 3
 #define TIME_CONSTANT 60 * 24 
 
+#define LEN_SHIFT 12
+
 #define NUM_OF_COMBINES 7
 #define NUM_OF_TRACTORS 4
 
@@ -24,13 +26,17 @@ int main(int argc, char *argv[]) {
     srand((unsigned int)time(NULL));
     RandomSeed(time(nullptr));
 
+    // default values
     unsigned long num_combines = NUM_OF_COMBINES;
     unsigned int num_tractors = NUM_OF_TRACTORS;
     unsigned int num_days = NUM_OF_DAYS;
+    unsigned int shift_length = LEN_SHIFT;
+    float field_size = (float)FIELD_SIZE;
+    float *fieldSize = &field_size; 
 
     // Parse command-line arguments
     int opt;
-    while ((opt = getopt(argc, argv, "c:t:d:")) != -1) {
+    while ((opt = getopt(argc, argv, "c:t:d:s:f:")) != -1) {
         switch (opt) {
             case 'c':
                 try {
@@ -57,6 +63,22 @@ int main(int argc, char *argv[]) {
                     return 1;
                 }
                 break;
+            case 's':
+                try {
+                    shift_length = stoi(optarg);
+                } catch (const invalid_argument &e) {
+                    cerr << "[ERROR] Argument for -s must be an unsigned int!" << endl;
+                    return 1;
+                }
+                break;
+            case 'f':
+                try {
+                    field_size = stoi(optarg);
+                } catch (const invalid_argument &e) {
+                    cerr << "[ERROR] Argument for -d must be an unsigned int!" << endl;
+                    return 1;
+                }
+                break;
             default:
                 cerr << "[ERROR] Invalid arguments! Usage: " << argv[0] << " -c <unsigned int> -t <unsigned int> -d <unisgned int>" << endl;
                 return 1;
@@ -78,7 +100,6 @@ int main(int argc, char *argv[]) {
     Stat *statCombineWaitDuration = new Stat("Combine wait duration");
 
     // tractors
-    Stat *statTractorDumpingDuration = new Stat("Tractor dumping time");
     Stat *statTractorNumRuns = new Stat("Tractor number of runs");
 
     // other
@@ -88,8 +109,9 @@ int main(int argc, char *argv[]) {
     //for (int i = 1; i <= 5; i++) {
     //    cout << "RUN NUMBER " << i << "." << endl;
         Init(START_TIME, TIME_CONSTANT * num_days);
-        (new Harvest(num_combines, num_tractors, FIELD_SIZE, statCombineNumRuns,statCombineHarvestDuration,statCombineWaitDuration,
-        statTractorDumpingDuration, statTractorNumRuns, statWhetaherRecord, statQueueOcupancy))->Activate();
+        (new Harvest(num_combines, num_tractors, field_size, 60 * shift_length, 
+        statCombineNumRuns,statCombineHarvestDuration,statCombineWaitDuration,
+        statTractorNumRuns, statWhetaherRecord, statQueueOcupancy, fieldSize))->Activate();
         Run();
     //    cout << "RUN NUMBER " << i << ". STATISTICS" << endl;
     //}
@@ -98,10 +120,10 @@ int main(int argc, char *argv[]) {
     statCombineHarvestDuration->Output();
     statCombineWaitDuration->Output();
     statTractorNumRuns->Output();
-    statTractorDumpingDuration->Output();
     statWhetaherRecord->Output();
     statQueueOcupancy->Output();
     SIMLIB_statistics.Output();
+    cout << "success rate:" << field_size/(float)FIELD_SIZE * 100 << "%" << endl;
 
     cout << "------------------------" << endl;
     cout << "SIMULATION FINISHED" << endl;

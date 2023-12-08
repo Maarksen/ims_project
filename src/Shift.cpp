@@ -12,29 +12,27 @@
 using namespace std;
 
 Shift::Shift(Harvest* harvest,
-             Store* shifts, 
+             Store* shifts,
              Queue *queue, 
              Stat *statCombineNumRuns,
              Stat *statCombineHarvestDuration,
              Stat *statCombineWaitDuration,
-             Stat *statTractorDumbingDuration,
              Stat *statTractorNumRuns,
              Stat *statQueueOcupancy
              ): 
              harvest(harvest), 
-             shifts(shifts), 
+             shifts(shifts),
              queue(queue),
              statCombineNumRuns(statCombineNumRuns),
              statCombineHarvestDuration(statCombineHarvestDuration),
              statCombineWaitDuration(statCombineWaitDuration),
-             statTractorDumpingDuration(statTractorDumbingDuration),
              statTractorNumRuns(statTractorNumRuns),
              statQueueOcupancy(statQueueOcupancy)
 {
 
     this->combines = new Store("Combine store", harvest->num_combines);
     this->tractors = new Store("Tractor store", harvest->num_tractors);
-    this->fieldSize = &harvest->field_size;
+    this->fieldSize = harvest->fieldSize;
     this->queue = queue;
 
     TractorFacility **tractorFacilities = new TractorFacility*[harvest->num_tractors];
@@ -48,7 +46,7 @@ Shift::Shift(Harvest* harvest,
 
 void Shift::Behavior() {
 
-    new ShiftTimer(this, *shifts);
+    new ShiftTimer(this, *shifts, harvest->shift_len);
     
     int comb_num = 0;
     Enter(*combines, harvest->num_combines);
@@ -57,8 +55,8 @@ void Shift::Behavior() {
     for(int i = 0; i < (int)harvest->num_combines; i++){
             (new Combine(this,comb_num++, this->combines,
             statCombineNumRuns, statCombineHarvestDuration,
-            statCombineWaitDuration, statTractorDumpingDuration,
-            statTractorNumRuns, statQueueOcupancy))->Activate();
+            statCombineWaitDuration,statTractorNumRuns,
+            statQueueOcupancy))->Activate();
     }
     while(*fieldSize > 0){ 
          Enter(*combines, 1);
@@ -67,13 +65,11 @@ void Shift::Behavior() {
         }
         (new Combine( this,comb_num++, this->combines,
         statCombineNumRuns, statCombineHarvestDuration,
-        statCombineWaitDuration, statTractorDumpingDuration,
-        statTractorNumRuns, statQueueOcupancy))->Activate();
+        statCombineWaitDuration,statTractorNumRuns, 
+        statQueueOcupancy))->Activate();
         
     }
-    //this->queue->Output();
     Leave(*shifts, 1);
-    //cout << "[" << Time << "]" << " Harvest is done." << endl;
 }
 
 Shift::~Shift() {

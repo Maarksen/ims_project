@@ -8,29 +8,30 @@
 
 using namespace std;
 
-Harvest::Harvest(unsigned long num_combine, unsigned int num_tractor, float FIELD_SIZE,
+Harvest::Harvest(unsigned long num_combine, unsigned int num_tractor, float FIELD_SIZE, unsigned int  shift_length,
                  Stat *statCombineNumRuns,
                  Stat *statCombineHarvestDuration,
                  Stat *statCombineWaitDuration,
-                 Stat *statTractorDumpingDuration,
                  Stat *statTractorNumRuns,
                  Stat *statWhetaherRecord,
-                 Stat *statQueueOcupancy
+                 Stat *statQueueOcupancy,
+                 float *fieldSize
                  ): 
                 statCombineNumRuns(statCombineNumRuns),
                 statCombineHarvestDuration(statCombineHarvestDuration),
                 statCombineWaitDuration(statCombineWaitDuration),
-                statTractorDumpingDuration(statTractorDumpingDuration),
                 statTractorNumRuns(statTractorNumRuns),
                 statWhetaherRecord(statWhetaherRecord),
-                statQueueOcupancy(statQueueOcupancy)
+                statQueueOcupancy(statQueueOcupancy),
+                fieldSize(fieldSize)
 {
 
     harvested_size = 0;
-    field_size = (float)FIELD_SIZE;
-    beginningFieldSize = (float)FIELD_SIZE;
+    field_size = FIELD_SIZE;
+    beginningFieldSize = field_size;
     num_combines = num_combine;
     num_tractors = num_tractor;
+    shift_len = shift_length;
     this->shifts = new Store("Shift store", 1);
 
 
@@ -38,13 +39,13 @@ Harvest::Harvest(unsigned long num_combine, unsigned int num_tractor, float FIEL
 
 void Harvest::Behavior()
 {
+    int rained = 0;
     while (field_size > 0)
     {
         if ((double)rand() / RAND_MAX < 0.9)
         {
 
             (*statWhetaherRecord)(+0);
-
             Enter(*shifts, 1);
 
             (new Shift(this, this->shifts,
@@ -52,14 +53,14 @@ void Harvest::Behavior()
                        statCombineNumRuns,
                        statCombineHarvestDuration,
                        statCombineWaitDuration,
-                       statTractorDumpingDuration,
                        statTractorNumRuns,
                        statQueueOcupancy))
                 ->Activate();
         }
         else
         {
-            (*statWhetaherRecord)(24);
+            rained++;
+            (*statWhetaherRecord)(rained);
             Wait(24);
         }
     }

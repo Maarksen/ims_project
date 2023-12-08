@@ -8,17 +8,17 @@
 
 class ShiftTimer : public Process {
     public:
-        ShiftTimer( Shift* shift, Store *shifts);
+        ShiftTimer( Shift* shift, Store *shifts, unsigned int shiftLength);
 
         void Behavior() override;
 
         bool isShift; 
         
     private:
-    const double shiftTime = 12 * 60;
 
     Shift *shift;
     Store *shifts;
+    unsigned int shiftLength;
 };
 
 #endif // SHIFT_TIMER_HPP

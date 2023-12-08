@@ -8,14 +8,14 @@ class Harvest : public Process
 {
 public:
     Harvest(unsigned long num_combine,
-            unsigned int num_tractor, float field_size,
+            unsigned int num_tractor, float FIELD_SIZE, unsigned int shift_length,
             Stat *statCombineNumRuns,
             Stat *statCombineHarvestDuration,
             Stat *statCombineWaitDuration, 
-            Stat *statTractorDumpingDuration, 
             Stat *statTractorNumRuns, 
             Stat *statWhetaherRecord, 
-            Stat *statQueueOcupancy
+            Stat *statQueueOcupancy,
+            float *fieldSize
             );
 
     ~Harvest() override;
@@ -27,7 +27,10 @@ public:
     unsigned int num_tractors;
 
     float field_size;
+    float *fieldSize;
     float beginningFieldSize;
+
+    unsigned int shift_len;
 
 private:
     unsigned long harvested_size;
@@ -41,7 +44,6 @@ private:
     Stat *statCombineHarvestDuration;
     Stat *statCombineWaitDuration;
     // traktor
-    Stat *statTractorDumpingDuration;
     Stat *statTractorNumRuns;
 
     Stat *statWhetaherRecord;

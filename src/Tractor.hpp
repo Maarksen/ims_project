@@ -9,7 +9,6 @@ class Tractor : public Process
 {
 public:
     Tractor(Priority_t priority, Shift *shift,
-            Stat *statTractorDumpingDuration,
             Stat *statTractorNumRuns,
             int fullTractor);
 
@@ -19,7 +18,6 @@ public:
 
     Shift *shift;
 
-    Stat *statTractorDumpingDuration;
     Stat *statTractorNumRuns;
 
     int fullTractor;

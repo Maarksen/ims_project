@@ -17,7 +17,6 @@ public:
              Stat *statCombineNumRuns,
              Stat *statCombineHarvestDuration,
              Stat *statCombineWaitDuration,
-             Stat *statTractorDumpingDuration,
              Stat *statTractorNumRuns,
              Stat *statQueueOcupancy
              );
@@ -38,7 +37,6 @@ private:
     Stat *statCombineHarvestDuration;
     Stat *statCombineWaitDuration;
     //tractor
-    Stat *statTractorDumpingDuration;
     Stat *statTractorNumRuns;
 
     Stat *statQueueOcupancy;

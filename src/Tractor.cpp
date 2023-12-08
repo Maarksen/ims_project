@@ -7,13 +7,11 @@ using namespace std;
 
 Tractor::Tractor(Priority_t priority, 
                  Shift *shift, 
-                 Stat *statTractorDumpingTime, 
                  Stat *statTractorNumRuns,
                  int fullTractor
                  ):
                  Process(priority), 
                  shift(shift), 
-                 statTractorDumpingDuration(statTractorDumpingDuration), 
                  statTractorNumRuns(statTractorNumRuns),
                  fullTractor(fullTractor)
 {
@@ -22,11 +20,7 @@ Tractor::Tractor(Priority_t priority,
 void Tractor::Behavior()
 
 {
-    float start_time = Time;
     Seize (*shift->tractorFacilities[fullTractor]);
-
-
-    long startedDumping = Time;
 
     // tractor goes to the storage
     Wait(Exponential(6));

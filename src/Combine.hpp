@@ -1,12 +1,13 @@
 #ifndef COMBINE_HPP
 #define COMBINE_HPP
 
-#include "TractorFacility.hpp"
-
 #include <simlib.h>
+
+#include "TractorFacility.hpp"
 #include "Shift.hpp"
 #include "Tractor.hpp"
- class Shift;
+
+class Shift;
 
 class Combine : public Process {
 public:
@@ -17,7 +18,8 @@ public:
              Stat *statCombineHarvestDuration,
              Stat *statCombineWaitDuration,
              Stat *statTractorDumpingDuration,
-             Stat *statTractorNumRuns
+             Stat *statTractorNumRuns,
+             Stat *statQueueOcupancy
              );
 
     void Behavior() override;
@@ -31,13 +33,15 @@ private:
     Store *combines;
     float *fieldSize;
     //stats
-    //kombajn 
+    //combine 
     Stat *statCombineNumRuns;
     Stat *statCombineHarvestDuration;
     Stat *statCombineWaitDuration;
-    //traktor
+    //tractor
     Stat *statTractorDumpingDuration;
     Stat *statTractorNumRuns;
+
+    Stat *statQueueOcupancy;
 };
 
 #endif // COMBINE_HPP

@@ -1,9 +1,9 @@
-#include "TractorFacility.hpp"
 #include <iostream>
+
+#include "TractorFacility.hpp"
 
 using namespace std;
 TractorFacility::TractorFacility() {
-    cout << "TractorFacility created" << endl;
 
 }
 

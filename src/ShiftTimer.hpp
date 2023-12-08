@@ -1,8 +1,8 @@
 #ifndef SHIFT_TIMER_HPP
 #define SHIFT_TIMER_HPP
 
-#include <simlib.h>
 #include <stdbool.h>
+#include <simlib.h>
 
 #include "Shift.hpp"
 
@@ -13,10 +13,8 @@ class ShiftTimer : public Process {
         void Behavior() override;
 
         bool isShift; 
-
-
+        
     private:
-
     const double shiftTime = 12 * 60;
 
     Shift *shift;

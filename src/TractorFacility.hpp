@@ -6,9 +6,8 @@
 class TractorFacility : public Facility {
     public:
         TractorFacility();
-        // void Behavior() override;
-
         unsigned long capacity = 3;
+        
     private:
 
 };

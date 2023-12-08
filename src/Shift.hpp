@@ -2,6 +2,7 @@
 #define SHIFT_HPP
 
 #include <simlib.h>  
+
 #include "Harvest.hpp"
 #include "Tractor.hpp"
 
@@ -16,7 +17,8 @@ public:
           Stat *statCombineHarvestDuration,
           Stat *statCombineWaitDuration,
           Stat *statTractorDumpingDuration,
-          Stat *statTractorNumRuns
+          Stat *statTractorNumRuns,
+          Stat *statQueueOcupancy
           );
 
     void Behavior() override;
@@ -37,6 +39,8 @@ public:
 
     Stat *statTractorDumpingDuration;
     Stat *statTractorNumRuns;
+
+    Stat *statQueueOcupancy;
 
 private:
 };

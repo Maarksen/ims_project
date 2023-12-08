@@ -106,6 +106,7 @@ int main(int argc, char *argv[]) {
     Stat *statWhetaherRecord = new Stat("Weather record");
     Stat *statQueueOcupancy = new Stat("Queue occupancy");
 
+    float beginningFieldSize = field_size;
     //for (int i = 1; i <= 5; i++) {
     //    cout << "RUN NUMBER " << i << "." << endl;
         Init(START_TIME, TIME_CONSTANT * num_days);
@@ -123,7 +124,15 @@ int main(int argc, char *argv[]) {
     statWhetaherRecord->Output();
     statQueueOcupancy->Output();
     SIMLIB_statistics.Output();
-    cout << "success rate:" << field_size/(float)FIELD_SIZE * 100 << "%" << endl;
+
+    delete statCombineHarvestDuration;
+    delete statQueueOcupancy;
+    delete statCombineNumRuns;
+    delete statCombineWaitDuration;
+    delete statWhetaherRecord;
+    delete statTractorNumRuns;
+
+    cout << "success rate:" << ((beginningFieldSize - field_size)/(float)beginningFieldSize)*100 << "%" << endl;
 
     cout << "------------------------" << endl;
     cout << "SIMULATION FINISHED" << endl;

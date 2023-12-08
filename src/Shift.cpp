@@ -73,5 +73,6 @@ void Shift::Behavior() {
 }
 
 Shift::~Shift() {
+    cout << "Shift destroyed" << endl;
 }
 

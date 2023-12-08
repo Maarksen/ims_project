@@ -40,12 +40,13 @@ Harvest::Harvest(unsigned long num_combine, unsigned int num_tractor, float FIEL
 void Harvest::Behavior()
 {
     int rained = 0;
-    while (field_size > 0)
+    while (*fieldSize > 0)
     {
         if ((double)rand() / RAND_MAX < 0.9)
         {
+            cout <<"toto je fieldssize" << *fieldSize << endl;
 
-            (*statWhetaherRecord)(+0);
+            //(*statWhetaherRecord)(+0);
             Enter(*shifts, 1);
 
             (new Shift(this, this->shifts,
@@ -60,14 +61,17 @@ void Harvest::Behavior()
         else
         {
             rained++;
-            (*statWhetaherRecord)(rained);
+            //(*statWhetaherRecord)(rained);
             Wait(24);
         }
     }
+    cout << "stopped" << endl;
+    delete shifts;
     Stop();
 }
 
 Harvest::~Harvest()
 {
-    delete shifts;
+    cout << "Harvest destructor" << endl;
+    //delete shifts;
 }

@@ -21,6 +21,7 @@ void Tractor::Behavior()
 
 {
     Seize (*shift->tractorFacilities[fullTractor]);
+    cout << "seizol som tractor " << fullTractor<< endl;
 
     // tractor goes to the storage
     Wait(Exponential(6));
@@ -33,7 +34,8 @@ void Tractor::Behavior()
     shift->tractorFacilities[fullTractor]->capacity = 3;;
 
     // storing the stats
-    (*statTractorNumRuns)(1);
+    // (*statTractorNumRuns)(1);
+    cout <<" release facility cislo"<< fullTractor << endl;
     Release(*shift->tractorFacilities[fullTractor]);
 
     // if the queue is not empty, activate the first combine in the queue

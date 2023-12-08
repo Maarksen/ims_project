@@ -5,32 +5,33 @@ SIMULATION START
 | STATISTIC Combine number of runs                         |
 +----------------------------------------------------------+
 |  Min = 1                       Max = 1                   |
-|  Number of records = 266                                 |
+|  Number of records = 602                                 |
 |  Average value = 1                                       |
 |  Standard deviation = 0                                  |
 +----------------------------------------------------------+
 +----------------------------------------------------------+
 | STATISTIC Combine harvest duration                       |
 +----------------------------------------------------------+
-|  Min = 6.49226                 Max = 42.528              |
-|  Number of records = 263                                 |
-|  Average value = 23.9973                                 |
-|  Standard deviation = 6.085                              |
+|  Min = 9.3054                  Max = 42.2615             |
+|  Number of records = 595                                 |
+|  Average value = 24.8009                                 |
+|  Standard deviation = 5.80396                            |
 +----------------------------------------------------------+
 +----------------------------------------------------------+
 | STATISTIC Combine wait duration                          |
 +----------------------------------------------------------+
-|  Min = 0.00465881              Max = 12.653              |
-|  Number of records = 281                                 |
-|  Average value = 0.770961                                |
-|  Standard deviation = 1.33375                            |
+|  Min = 0.000333786             Max = 3.29212             |
+|  Number of records = 608                                 |
+|  Average value = 0.535356                                |
+|  Standard deviation = 0.365757                           |
 +----------------------------------------------------------+
 +----------------------------------------------------------+
 | STATISTIC Tractor number of runs                         |
 +----------------------------------------------------------+
 |  Min = 1                       Max = 1                   |
-|  Number of records = 86                                  |
+|  Number of records = 195                                 |
 |  Average value = 1                                       |
+|  Standard deviation = 0                                  |
 +----------------------------------------------------------+
 +----------------------------------------------------------+
 | STATISTIC Weather record                                 |
@@ -42,19 +43,19 @@ SIMULATION START
 +----------------------------------------------------------+
 | STATISTIC Queue occupancy                                |
 +----------------------------------------------------------+
-|  Min = 0                       Max = 1                   |
-|  Number of records = 281                                 |
-|  Average value = 0.0996441                               |
-|  Standard deviation = 0.300059                           |
+|  Min = 0                       Max = 2                   |
+|  Number of records = 608                                 |
+|  Average value = 0.0328947                               |
+|  Standard deviation = 0.196099                           |
 +----------------------------------------------------------+
 #
 # SIMLIB run-time statistics:
 #    StartTime  = 0
 #    EndTime    = 4320
-#    EventCount = 1422
+#    EventCount = 3173
 #    StepCount  = 0
 #
-success rate:85.5349%
+success rate:67.2748%
 ------------------------
 SIMULATION FINISHED
 ------------------------

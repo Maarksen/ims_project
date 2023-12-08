@@ -31,7 +31,7 @@ Combine::Combine(Shift *shift,
 void Combine::Behavior()
 {
     // number of combine runs in total in one shift
-    (*statCombineNumRuns)(1);
+    // (*statCombineNumRuns)(1);
     float harvestTime = Normal(24,6);
 
    // storing the time when the combine started harvesting
@@ -41,7 +41,7 @@ void Combine::Behavior()
     Wait(harvestTime);
 
     // storing the stat of harvesting duration
-    (*statCombineHarvestDuration)(Time - startedHarvest);
+    // (*statCombineHarvestDuration)(Time - startedHarvest);
 
     // storiing the time when the combine started waiting for the tractor
     long startedWaiting = Time;
@@ -66,6 +66,7 @@ back:
     {
         if (!shift->tractorFacilities[i]->Busy())
         {
+            cout << "naslo sa volne miesto v tractore" << i << endl;
             k = i;
             break;
         }
@@ -74,18 +75,18 @@ back:
     if (k == -1)
     {
         Into(shift->queue);
-        (*statQueueOcupancy)(shift->queue->Length());
+        //(*statQueueOcupancy)(shift->queue->Length());
         float time_before_q = Time;
         Passivate();
         float time_after_q = Time;
-        (*statCombineWaitDuration)(time_after_q - time_before_q);
+        //(*statCombineWaitDuration)(time_after_q - time_before_q);
         goto back;
     }
 
     // storing the stat of waiting for the tractor
-    (*statCombineWaitDuration)(Time - startedWaiting);
+    //(*statCombineWaitDuration)(Time - startedWaiting);
+    cout << "seizujem traktor" << k << endl;
     Seize(*shift->tractorFacilities[k]);
-
     // dumping the grain out of the tractor  (90sec)
     shift->tractorFacilities[k]->capacity -= 1;
     Wait(1.5);
@@ -95,13 +96,13 @@ back:
     {
         (new Tractor(1,this->shift, statTractorNumRuns, k))->Activate();
     }
-
+    cout << "combine " << num<<  "realeasujem facility v combine" << endl;
     Release(*shift->tractorFacilities[k]);
 
     // activating the next combine in the queue if queue is non-empty
     if (shift->queue->Length() > 0)
     {
-        (*statQueueOcupancy)(shift->queue->Length());
+        //(*statQueueOcupancy)(shift->queue->Length());
         (shift->queue->GetFirst())->Activate();
     }
     else{

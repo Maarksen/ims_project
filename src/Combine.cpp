@@ -74,7 +74,6 @@ back:
     if (k == -1)
     {
         Into(shift->queue);
-
         (*statQueueOcupancy)(shift->queue->Length());
         float time_before_q = Time;
         Passivate();
@@ -101,8 +100,6 @@ back:
     // activating the next combine in the queue if queue is non-empty
     if (shift->queue->Length() > 0)
     {
-        cout << "queue length: " << shift->queue->Length() << endl;
-        (*statQueueOcupancy)(shift->queue->Length());
         (shift->queue->GetFirst())->Activate();
     }
     else{

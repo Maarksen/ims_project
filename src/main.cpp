@@ -106,13 +106,19 @@ int main(int argc, char *argv[]) {
     Stat *statWhetaherRecord = new Stat("Weather record");
     Stat *statQueueOcupancy = new Stat("Queue occupancy");
 
+    TractorFacility **tractorFacilities = new TractorFacility*[num_tractors];
+    // Create TractorFacility instances
+    for (int i = 0; i < (int)num_tractors; i++) {
+    tractorFacilities[i] = new TractorFacility();
+    }
+
     float beginningFieldSize = field_size;
     //for (int i = 1; i <= 5; i++) {
     //    cout << "RUN NUMBER " << i << "." << endl;
         Init(START_TIME, TIME_CONSTANT * num_days);
         (new Harvest(num_combines, num_tractors, field_size, 60 * shift_length, 
         statCombineNumRuns,statCombineHarvestDuration,statCombineWaitDuration,
-        statTractorNumRuns, statWhetaherRecord, statQueueOcupancy, fieldSize))->Activate();
+        statTractorNumRuns, statWhetaherRecord, statQueueOcupancy, fieldSize, tractorFacilities))->Activate();
         Run();
     //    cout << "RUN NUMBER " << i << ". STATISTICS" << endl;
     //}
@@ -125,6 +131,11 @@ int main(int argc, char *argv[]) {
     statQueueOcupancy->Output();
     SIMLIB_statistics.Output();
 
+    for(int i = 0; i < num_tractors; i++){
+        tractorFacilities[i]->Output();
+    }
+
+
     delete statCombineHarvestDuration;
     delete statQueueOcupancy;
     delete statCombineNumRuns;
@@ -133,6 +144,7 @@ int main(int argc, char *argv[]) {
     delete statTractorNumRuns;
 
     cout << "success rate:" << ((beginningFieldSize - field_size)/(float)beginningFieldSize)*100 << "%" << endl;
+    cout << " Time: " << (Time / (TIME_CONSTANT)) << " days" << endl;
 
     cout << "------------------------" << endl;
     cout << "SIMULATION FINISHED" << endl;

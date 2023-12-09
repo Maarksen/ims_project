@@ -15,7 +15,8 @@ public:
             Stat *statTractorNumRuns, 
             Stat *statWhetaherRecord, 
             Stat *statQueueOcupancy,
-            float *fieldSize
+            float *fieldSize,
+            TractorFacility **tractorFacilities
             );
 
     ~Harvest() override;
@@ -31,6 +32,7 @@ public:
     float beginningFieldSize;
 
     unsigned int shift_len;
+    TractorFacility **tractorFacilities;
 
 private:
     unsigned long harvested_size;

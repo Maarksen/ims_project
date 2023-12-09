@@ -18,7 +18,8 @@ Shift::Shift(Harvest* harvest,
              Stat *statCombineHarvestDuration,
              Stat *statCombineWaitDuration,
              Stat *statTractorNumRuns,
-             Stat *statQueueOcupancy
+             Stat *statQueueOcupancy,
+             TractorFacility** tractorFacilities
              ): 
              harvest(harvest), 
              shifts(shifts),
@@ -27,21 +28,21 @@ Shift::Shift(Harvest* harvest,
              statCombineHarvestDuration(statCombineHarvestDuration),
              statCombineWaitDuration(statCombineWaitDuration),
              statTractorNumRuns(statTractorNumRuns),
-             statQueueOcupancy(statQueueOcupancy)
+             statQueueOcupancy(statQueueOcupancy),
+             tractorFacilities(tractorFacilities)
 {
 
     this->combines = new Store("Combine store", harvest->num_combines);
     this->tractors = new Store("Tractor store", harvest->num_tractors);
     this->fieldSize = harvest->fieldSize;
-    this->queue = queue;
+    // this->queue = queue;
 
-    TractorFacility **tractorFacilities = new TractorFacility*[harvest->num_tractors];
-    this->tractorFacilities = tractorFacilities;
+    // this->tractorFacilities = tractorFacilities;
 
     // Create TractorFacility instances
-    for (int i = 0; i < (int)harvest->num_tractors; i++) {
-    tractorFacilities[i] = new TractorFacility();
-    }
+    // for (int i = 0; i < (int)harvest->num_tractors; i++) {
+    // tractorFacilities[i] = new TractorFacility();
+    // }
 }
 
 void Shift::Behavior() {
@@ -67,12 +68,11 @@ void Shift::Behavior() {
         statCombineNumRuns, statCombineHarvestDuration,
         statCombineWaitDuration,statTractorNumRuns, 
         statQueueOcupancy))->Activate();
-        
     }
+    
     Leave(*shifts, 1);
 }
 
 Shift::~Shift() {
-    cout << "Shift destroyed" << endl;
 }
 

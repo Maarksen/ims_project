@@ -15,7 +15,8 @@ Harvest::Harvest(unsigned long num_combine, unsigned int num_tractor, float FIEL
                  Stat *statTractorNumRuns,
                  Stat *statWhetaherRecord,
                  Stat *statQueueOcupancy,
-                 float *fieldSize
+                 float *fieldSize,
+                 TractorFacility **tractorFacilities
                  ): 
                 statCombineNumRuns(statCombineNumRuns),
                 statCombineHarvestDuration(statCombineHarvestDuration),
@@ -23,7 +24,8 @@ Harvest::Harvest(unsigned long num_combine, unsigned int num_tractor, float FIEL
                 statTractorNumRuns(statTractorNumRuns),
                 statWhetaherRecord(statWhetaherRecord),
                 statQueueOcupancy(statQueueOcupancy),
-                fieldSize(fieldSize)
+                fieldSize(fieldSize),
+                tractorFacilities(tractorFacilities)
 {
 
     harvested_size = 0;
@@ -33,45 +35,43 @@ Harvest::Harvest(unsigned long num_combine, unsigned int num_tractor, float FIEL
     num_tractors = num_tractor;
     shift_len = shift_length;
     this->shifts = new Store("Shift store", 1);
-
-
 }
 
 void Harvest::Behavior()
 {
+    Queue *queue = new Queue();
+
     int rained = 0;
     while (*fieldSize > 0)
     {
+        
         if ((double)rand() / RAND_MAX < 0.9)
         {
-            cout <<"toto je fieldssize" << *fieldSize << endl;
-
-            //(*statWhetaherRecord)(+0);
+            (*statWhetaherRecord)(+0);
             Enter(*shifts, 1);
 
             (new Shift(this, this->shifts,
-                       new Queue(),
+                       *queue,
                        statCombineNumRuns,
                        statCombineHarvestDuration,
                        statCombineWaitDuration,
                        statTractorNumRuns,
-                       statQueueOcupancy))
+                       statQueueOcupancy,
+                       tractorFacilities))
                 ->Activate();
         }
         else
         {
             rained++;
-            //(*statWhetaherRecord)(rained);
+            (*statWhetaherRecord)(rained);
             Wait(24);
         }
     }
-    cout << "stopped" << endl;
-    delete shifts;
+
+    //delete shifts;
     Stop();
 }
 
 Harvest::~Harvest()
 {
-    cout << "Harvest destructor" << endl;
-    //delete shifts;
 }

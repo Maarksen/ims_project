@@ -17,7 +17,8 @@ public:
           Stat *statCombineHarvestDuration,
           Stat *statCombineWaitDuration,
           Stat *statTractorNumRuns,
-          Stat *statQueueOcupancy
+          Stat *statQueueOcupancy,
+          TractorFacility **tractorFacilities
           );
 
     void Behavior() override;
@@ -27,7 +28,6 @@ public:
     Harvest *harvest;
     Store *shifts;
     Queue *queue;
-    TractorFacility **tractorFacilities;
     Store *combines;
     Store *tractors;
     float *fieldSize;
@@ -39,6 +39,8 @@ public:
     Stat *statTractorNumRuns;
 
     Stat *statQueueOcupancy;
+
+    TractorFacility **tractorFacilities;
 
 private:
 };

@@ -8,16 +8,16 @@
 
 
 #define START_TIME 0
-#define NUM_OF_DAYS 100
+#define NUM_OF_DAYS 14
 #define TIME_CONSTANT 60 * 24 
 
 #define LEN_SHIFT 8
 
-#define NUM_OF_COMBINES 2
-#define NUM_OF_TRACTORS 1
+#define NUM_OF_COMBINES 3
+#define NUM_OF_TRACTORS 4
 
 // field size in kilometres squared
-#define FIELD_SIZE 50.0 // 100km^2
+#define FIELD_SIZE 70.0 // 100km^2
 
 using namespace std;
 
@@ -129,10 +129,10 @@ int main(int argc, char *argv[]) {
     statTractorNumRuns->Output();
     statWhetaherRecord->Output();
 
-    for(int i = 0; i < num_tractors; i++){
-        cout << "TRACTOR FACILITY " << i + 1 << " STATISTICS" << endl;
-        tractorFacilities[i]->Output();
-    }
+    // for(int i = 0; i < num_tractors; i++){
+    //     cout << "TRACTOR FACILITY " << i + 1 << " STATISTICS" << endl;
+    //     tractorFacilities[i]->Output();
+    // }
 
     SIMLIB_statistics.Output();
 

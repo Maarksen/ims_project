@@ -74,7 +74,6 @@ back:
     if (k == -1)
     {
         Into(shift->queue);
-        (*statQueueOcupancy)(shift->queue->Length());
         float time_before_q = Time;
         Passivate();
         float time_after_q = Time;
@@ -101,9 +100,6 @@ back:
     if (shift->queue->Length() > 0)
     {
         (shift->queue->GetFirst())->Activate();
-    }
-    else{
-       (*statQueueOcupancy)(+0); 
     }
 
     Leave(*combines, 1);

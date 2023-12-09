@@ -128,13 +128,13 @@ int main(int argc, char *argv[]) {
     statCombineWaitDuration->Output();
     statTractorNumRuns->Output();
     statWhetaherRecord->Output();
-    statQueueOcupancy->Output();
-    SIMLIB_statistics.Output();
 
     for(int i = 0; i < num_tractors; i++){
+        cout << "TRACTOR FACILITY " << i + 1 << " STATISTICS" << endl;
         tractorFacilities[i]->Output();
     }
 
+    SIMLIB_statistics.Output();
 
     delete statCombineHarvestDuration;
     delete statQueueOcupancy;

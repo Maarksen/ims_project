@@ -39,8 +39,6 @@ Harvest::Harvest(unsigned long num_combine, unsigned int num_tractor, float FIEL
 
 void Harvest::Behavior()
 {
-    Queue *queue = new Queue();
-
     int rained = 0;
     while (*fieldSize > 0)
     {
@@ -51,7 +49,7 @@ void Harvest::Behavior()
             Enter(*shifts, 1);
 
             (new Shift(this, this->shifts,
-                       *queue,
+                       new Queue(),
                        statCombineNumRuns,
                        statCombineHarvestDuration,
                        statCombineWaitDuration,

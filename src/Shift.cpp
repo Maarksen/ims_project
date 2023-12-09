@@ -35,19 +35,13 @@ Shift::Shift(Harvest* harvest,
     this->combines = new Store("Combine store", harvest->num_combines);
     this->tractors = new Store("Tractor store", harvest->num_tractors);
     this->fieldSize = harvest->fieldSize;
-    // this->queue = queue;
 
-    // this->tractorFacilities = tractorFacilities;
-
-    // Create TractorFacility instances
-    // for (int i = 0; i < (int)harvest->num_tractors; i++) {
-    // tractorFacilities[i] = new TractorFacility();
-    // }
 }
 
 void Shift::Behavior() {
 
     new ShiftTimer(this, *shifts, harvest->shift_len);
+    //queue->Clear();
     
     int comb_num = 0;
     Enter(*combines, harvest->num_combines);

@@ -40,34 +40,21 @@ Harvest::Harvest(unsigned long num_combine, unsigned int num_tractor, float FIEL
 void Harvest::Behavior()
 {
     int rained = 0;
-    while (*fieldSize > 0)
-    {
-        
-        if ((double)rand() / RAND_MAX < 0.9)
-        {
-            (*statWhetaherRecord)(+0);
-            Enter(*shifts, 1);
+    while (*fieldSize > 0){
+        Enter(*shifts, 1);
+        (*statWhetaherRecord)(1);
 
-            (new Shift(this, this->shifts,
-                       new Queue(),
-                       statCombineNumRuns,
-                       statCombineHarvestDuration,
-                       statCombineWaitDuration,
-                       statTractorNumRuns,
-                       statQueueOcupancy,
-                       tractorFacilities))
-                ->Activate();
-        }
-        else
-        {
-            rained++;
-            (*statWhetaherRecord)(rained);
-            Wait(24);
-        }
+        (new Shift(this, this->shifts,
+                    new Queue(),
+                    statCombineNumRuns,
+                    statCombineHarvestDuration,
+                    statCombineWaitDuration,
+                    statTractorNumRuns,
+                    statQueueOcupancy,
+                    tractorFacilities))
+            ->Activate();
     }
-
-    //delete shifts;
-    Stop();
+Stop();
 }
 
 Harvest::~Harvest()

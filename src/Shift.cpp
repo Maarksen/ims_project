@@ -43,6 +43,7 @@ void Shift::Behavior() {
     new ShiftTimer(this, *shifts, harvest->shift_len);
     //queue->Clear();
     
+
     int comb_num = 0;
     Enter(*combines, harvest->num_combines);
 
@@ -63,8 +64,7 @@ void Shift::Behavior() {
         statCombineWaitDuration,statTractorNumRuns, 
         statQueueOcupancy))->Activate();
     }
-    
-    Leave(*shifts, 1);
+    Leave(*shifts, 1); 
 }
 
 Shift::~Shift() {

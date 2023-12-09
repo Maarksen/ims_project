@@ -8,16 +8,16 @@
 
 
 #define START_TIME 0
-#define NUM_OF_DAYS 3
+#define NUM_OF_DAYS 100
 #define TIME_CONSTANT 60 * 24 
 
-#define LEN_SHIFT 12
+#define LEN_SHIFT 8
 
-#define NUM_OF_COMBINES 7
-#define NUM_OF_TRACTORS 4
+#define NUM_OF_COMBINES 2
+#define NUM_OF_TRACTORS 1
 
 // field size in kilometres squared
-#define FIELD_SIZE 100.0 // 100km^2
+#define FIELD_SIZE 50.0 // 100km^2
 
 using namespace std;
 

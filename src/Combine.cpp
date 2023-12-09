@@ -49,13 +49,13 @@ void Combine::Behavior()
 
     // if the field is smaller than then capacity of one harvest, we set the 
     // remaining field size to 0
-    if (*fieldSize < 0.055)
+    if (*fieldSize < 0.021)
     {
         *fieldSize = 0;
     }
     else
     {
-        *fieldSize -= 0.055; 
+        *fieldSize -= 0.021; 
     }
 
     int k = -1;

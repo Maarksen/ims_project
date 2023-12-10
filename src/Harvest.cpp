@@ -8,24 +8,24 @@
 
 using namespace std;
 
-Harvest::Harvest(unsigned long num_combine, unsigned int num_tractor, float FIELD_SIZE, unsigned int  shift_length,
+Harvest::Harvest(unsigned long num_combine, unsigned int num_tractor, 
+                 float FIELD_SIZE, float *fieldSize, unsigned int  shift_length,
+                 TractorFacility **tractorFacilities,
                  Stat *statCombineNumRuns,
                  Stat *statCombineHarvestDuration,
                  Stat *statCombineWaitDuration,
                  Stat *statTractorNumRuns,
                  Stat *statWhetaherRecord,
-                 Stat *statQueueOcupancy,
-                 float *fieldSize,
-                 TractorFacility **tractorFacilities
+                 Stat *statQueueOcupancy
                  ): 
+                fieldSize(fieldSize),
+                tractorFacilities(tractorFacilities),
                 statCombineNumRuns(statCombineNumRuns),
                 statCombineHarvestDuration(statCombineHarvestDuration),
                 statCombineWaitDuration(statCombineWaitDuration),
                 statTractorNumRuns(statTractorNumRuns),
                 statWhetaherRecord(statWhetaherRecord),
-                statQueueOcupancy(statQueueOcupancy),
-                fieldSize(fieldSize),
-                tractorFacilities(tractorFacilities)
+                statQueueOcupancy(statQueueOcupancy)
 {
 
     harvested_size = 0;
@@ -39,7 +39,6 @@ Harvest::Harvest(unsigned long num_combine, unsigned int num_tractor, float FIEL
 
 void Harvest::Behavior()
 {
-    int rained = 0;
     while (*fieldSize > 0){
         Enter(*shifts, 1);
         (*statWhetaherRecord)(1);

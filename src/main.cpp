@@ -116,9 +116,9 @@ int main(int argc, char *argv[]) {
     //for (int i = 1; i <= 5; i++) {
     //    cout << "RUN NUMBER " << i << "." << endl;
         Init(START_TIME, TIME_CONSTANT * num_days);
-        (new Harvest(num_combines, num_tractors, field_size, 60 * shift_length, 
-        statCombineNumRuns,statCombineHarvestDuration,statCombineWaitDuration,
-        statTractorNumRuns, statWhetaherRecord, statQueueOcupancy, fieldSize, tractorFacilities))->Activate();
+        (new Harvest(num_combines, num_tractors, field_size,  fieldSize, 60 * shift_length, 
+        tractorFacilities, statCombineNumRuns,statCombineHarvestDuration,statCombineWaitDuration,
+        statTractorNumRuns, statWhetaherRecord, statQueueOcupancy))->Activate();
         Run();
     //    cout << "RUN NUMBER " << i << ". STATISTICS" << endl;
     //}

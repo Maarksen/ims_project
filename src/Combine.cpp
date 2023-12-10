@@ -74,10 +74,7 @@ back:
     if (k == -1)
     {
         Into(shift->queue);
-        float time_before_q = Time;
         Passivate();
-        float time_after_q = Time;
-        // (*statCombineWaitDuration)(time_after_q - time_before_q);
         goto back;
     }
 

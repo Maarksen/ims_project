@@ -127,7 +127,7 @@ int main(int argc, char *argv[]) {
     statTractorNumRuns->Output();
     statWhetaherRecord->Output();
 
-    //for(unsigned int i = 0; i < num_tractors; i++){cout << "TRACTOR FACILITY " << i + 1 << " STATISTICS" << endl;tractorFacilities[i]->Output();}
+    for(unsigned int i = 0; i < num_tractors; i++){cout << "TRACTOR FACILITY " << i + 1 << " STATISTICS" << endl;tractorFacilities[i]->Output();}
 
     SIMLIB_statistics.Output();
 

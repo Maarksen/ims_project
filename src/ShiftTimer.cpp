@@ -12,23 +12,17 @@ ShiftTimer::ShiftTimer(Shift *shift,
                        shifts(shifts), 
                        shiftLength(shiftLength)
 {
-cout <<Time/60 <<  " shift tarted" << endl;
     Activate(Time + shiftLength);
 }
 
 void ShiftTimer::Behavior() {
 
 
-cout <<Time/60 <<  " starting shift timer destructor" << endl;
-cout << Time / 60 << " prepisal som isOver na true, mal by si vyskocit brasko" << endl;
 shift->isOver = true;
     //shift->Terminate();
     //delete shift;	
-cout <<Time/60 <<  " terminated shift" << endl;
     //Wait((( 60 * 24 )  - shiftLength));
 
-cout <<Time/60 <<  " after waiting in the shiftimer destructor " << endl;
 
     //Leave(*shifts, 1);
-cout <<Time/60 <<  " shift ended" << endl;
 }

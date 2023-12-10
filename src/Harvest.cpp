@@ -42,9 +42,7 @@ void Harvest::Behavior()
     while (*fieldSize > 0){
 	
 
-cout <<Time/60 << "before etner shift " << endl;
         Enter(*shifts, 1);
-cout <<Time/60 <<  "after etner shift " << endl;
         (new Shift(this, this->shifts,
                     new Queue(),
                     statCombineNumRuns,

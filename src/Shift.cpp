@@ -42,13 +42,11 @@ Shift::Shift(Harvest* harvest,
 }
 
 void Shift::Behavior() {
-	cout << Time/60 << " zacina shifta " << endl;
 
     new ShiftTimer(this, *shifts, harvest->shift_len);
     queue->Clear();
     
     if ((double)rand() / RAND_MAX < 0.9){
-	cout << Time/60 << " field size je" <<  *fieldSize<< " a neprsi" << endl;
     int comb_num = 0;
     Enter(*combines, harvest->num_combines);
 
@@ -90,6 +88,5 @@ Wait(1);
 }
 
 Shift::~Shift() {
-cout << " shift destroyed" << endl;
 }
 

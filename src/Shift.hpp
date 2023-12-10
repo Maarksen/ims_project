@@ -43,6 +43,7 @@ public:
 
     TractorFacility **tractorFacilities;
     Stat *statWhetaherRecord;
+    bool isOver;
 
 private:
 };

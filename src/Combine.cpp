@@ -86,19 +86,22 @@ back:
     Wait(1.5);
 
     // if the tractor is full, it goes to the storage to dump the grain
+    if (shift->queue){
     if (shift->tractorFacilities[k]->capacity == 0)
     {
         (new Tractor(1,this->shift, statTractorNumRuns, k))->Activate();
     }
+}
     Release(*shift->tractorFacilities[k]);
 
     // activating the next combine in the queue if queue is non-empty
+
     if (shift->queue->Length() > 0)
     {
         (shift->queue->GetFirst())->Activate();
     }
+		Leave(*combines, 1);
 
-    Leave(*combines, 1);
 }
 
 Combine::~Combine()

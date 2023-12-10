@@ -8,13 +8,13 @@
 
 
 #define START_TIME 0
-#define NUM_OF_DAYS 14
+#define NUM_OF_DAYS 3
 #define TIME_CONSTANT 60 * 24 
 
-#define LEN_SHIFT 8
+#define LEN_SHIFT 12
 
-#define NUM_OF_COMBINES 3
-#define NUM_OF_TRACTORS 4
+#define NUM_OF_COMBINES 2
+#define NUM_OF_TRACTORS 1
 
 // field size in kilometres squared
 #define FIELD_SIZE 10 // 100km^2
@@ -108,9 +108,7 @@ int main(int argc, char *argv[]) {
 
     TractorFacility **tractorFacilities = new TractorFacility*[num_tractors];
     // Create TractorFacility instances
-    for (int i = 0; i < (int)num_tractors; i++) {
-    tractorFacilities[i] = new TractorFacility();
-    }
+    for (int i = 0; i < (int)num_tractors; i++) {tractorFacilities[i] = new TractorFacility();}
 
     float beginningFieldSize = field_size;
     //for (int i = 1; i <= 5; i++) {
@@ -129,10 +127,7 @@ int main(int argc, char *argv[]) {
     statTractorNumRuns->Output();
     statWhetaherRecord->Output();
 
-    for(unsigned int i = 0; i < num_tractors; i++){
-        cout << "TRACTOR FACILITY " << i + 1 << " STATISTICS" << endl;
-        tractorFacilities[i]->Output();
-    }
+    //for(unsigned int i = 0; i < num_tractors; i++){cout << "TRACTOR FACILITY " << i + 1 << " STATISTICS" << endl;tractorFacilities[i]->Output();}
 
     SIMLIB_statistics.Output();
 

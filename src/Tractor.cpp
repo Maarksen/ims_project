@@ -20,6 +20,7 @@ Tractor::Tractor(Priority_t priority,
 void Tractor::Behavior()
 
 {
+
     Seize (*shift->tractorFacilities[fullTractor]);
 
     // tractor goes to the storage
@@ -37,12 +38,15 @@ void Tractor::Behavior()
     Release(*shift->tractorFacilities[fullTractor]);
 
     // if the queue is not empty, activate the first combine in the queue
+
+if (shift->queue != nullptr){
     if (shift->queue->Length() > 0)
     {
         (shift->queue->GetFirst())->Activate();
     }
 }
 
+}
 Tractor::~Tractor()
 {
 }

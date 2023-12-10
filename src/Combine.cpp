@@ -39,7 +39,6 @@ void Combine::Behavior()
 
     // duration of harvesting
     Wait(harvestTime);
-
     // storing the stat of harvesting duration
     (*statCombineHarvestDuration)(Time - startedHarvest);
 

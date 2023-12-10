@@ -18,7 +18,8 @@ public:
           Stat *statCombineWaitDuration,
           Stat *statTractorNumRuns,
           Stat *statQueueOcupancy,
-          TractorFacility **tractorFacilities
+          TractorFacility **tractorFacilities,
+          Stat *statWhetaherRecord
           );
 
     void Behavior() override;
@@ -41,6 +42,7 @@ public:
     Stat *statQueueOcupancy;
 
     TractorFacility **tractorFacilities;
+    Stat *statWhetaherRecord;
 
 private:
 };

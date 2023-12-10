@@ -40,9 +40,8 @@ Harvest::Harvest(unsigned long num_combine, unsigned int num_tractor,
 void Harvest::Behavior()
 {
     while (*fieldSize > 0){
-        Enter(*shifts, 1);
-        (*statWhetaherRecord)(1);
 
+        Enter(*shifts, 1);
         (new Shift(this, this->shifts,
                     new Queue(),
                     statCombineNumRuns,
@@ -50,10 +49,10 @@ void Harvest::Behavior()
                     statCombineWaitDuration,
                     statTractorNumRuns,
                     statQueueOcupancy,
-                    tractorFacilities))
+                    tractorFacilities, statWhetaherRecord))
             ->Activate();
     }
-Stop();
+    Stop();
 }
 
 Harvest::~Harvest()

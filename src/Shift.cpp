@@ -19,7 +19,8 @@ Shift::Shift(Harvest* harvest,
              Stat *statCombineWaitDuration,
              Stat *statTractorNumRuns,
              Stat *statQueueOcupancy,
-             TractorFacility** tractorFacilities
+             TractorFacility** tractorFacilities,
+             Stat *statWhetaherRecord
              ): 
              harvest(harvest), 
              shifts(shifts),
@@ -29,7 +30,8 @@ Shift::Shift(Harvest* harvest,
              statCombineWaitDuration(statCombineWaitDuration),
              statTractorNumRuns(statTractorNumRuns),
              statQueueOcupancy(statQueueOcupancy),
-             tractorFacilities(tractorFacilities)
+             tractorFacilities(tractorFacilities),
+             statWhetaherRecord(statWhetaherRecord)
 {
 
     this->combines = new Store("Combine store", harvest->num_combines);
@@ -43,7 +45,7 @@ void Shift::Behavior() {
     new ShiftTimer(this, *shifts, harvest->shift_len);
     //queue->Clear();
     
-
+    if ((double)rand() / RAND_MAX < 0.9){
     int comb_num = 0;
     Enter(*combines, harvest->num_combines);
 
@@ -64,6 +66,12 @@ void Shift::Behavior() {
         statCombineWaitDuration,statTractorNumRuns, 
         statQueueOcupancy))->Activate();
     }
+    }
+    else{
+         (*statWhetaherRecord)(1);
+        
+        Wait(10000000);}  
+
     Leave(*shifts, 1); 
 }
 

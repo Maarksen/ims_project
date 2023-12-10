@@ -16,7 +16,7 @@ ShiftTimer::ShiftTimer(Shift *shift,
 }
 
 void ShiftTimer::Behavior() {
-    shift->Passivate();
+    shift->Terminate();
     Wait(((24 * 60)  - shiftLength));
     Leave(*shifts, 1);
 }
